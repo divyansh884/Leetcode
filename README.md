@@ -15,4 +15,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/divyansh884/Leetcode/tree/master/0070-climbing-stairs) |
+## String
+|  |
+| ------- |
+| [2154-minimum-moves-to-convert-string](https://github.com/divyansh884/Leetcode/tree/master/2154-minimum-moves-to-convert-string) |
+## Greedy
+|  |
+| ------- |
+| [2154-minimum-moves-to-convert-string](https://github.com/divyansh884/Leetcode/tree/master/2154-minimum-moves-to-convert-string) |
 <!---LeetCode Topics End-->
