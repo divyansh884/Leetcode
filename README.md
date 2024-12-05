@@ -23,4 +23,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2154-minimum-moves-to-convert-string](https://github.com/divyansh884/Leetcode/tree/master/2154-minimum-moves-to-convert-string) |
+## Array
+|  |
+| ------- |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
+## Hash Table
+|  |
+| ------- |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
+## Counting
+|  |
+| ------- |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 <!---LeetCode Topics End-->
