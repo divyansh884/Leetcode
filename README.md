@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/divyansh884/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2154-minimum-moves-to-convert-string](https://github.com/divyansh884/Leetcode/tree/master/2154-minimum-moves-to-convert-string) |
@@ -54,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/divyansh884/Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
