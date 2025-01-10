@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/divyansh884/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
+| [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [2154-minimum-moves-to-convert-string](https://github.com/divyansh884/Leetcode/tree/master/2154-minimum-moves-to-convert-string) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/divyansh884/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -39,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
+| [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 ## Counting
 |  |
