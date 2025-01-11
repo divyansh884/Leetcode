@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Hash Table
 |  |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
+| [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
 ## Counting
 |  |
 | ------- |
@@ -81,4 +83,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+## Enumeration
+|  |
+| ------- |
+| [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
 <!---LeetCode Topics End-->
