@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/divyansh884/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/divyansh884/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
 ## Stack
 |  |
@@ -90,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
+## Linked List
+|  |
+| ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/divyansh884/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 <!---LeetCode Topics End-->
