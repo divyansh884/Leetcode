@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/divyansh884/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 ## Hash Table
 |  |
 | ------- |
