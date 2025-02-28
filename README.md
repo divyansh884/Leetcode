@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/divyansh884/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/divyansh884/Leetcode/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
+| [0283-move-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0283-move-zeroes) |
 | [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [1364-tuple-with-same-product](https://github.com/divyansh884/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/divyansh884/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/divyansh884/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0160-intersection-of-two-linked-lists](https://github.com/divyansh884/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/divyansh884/Leetcode/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0283-move-zeroes) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/divyansh884/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Stack
