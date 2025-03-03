@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/divyansh884/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/divyansh884/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/divyansh884/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/divyansh884/Leetcode/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/divyansh884/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/divyansh884/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/divyansh884/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Counting
 |  |
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/divyansh884/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/divyansh884/Leetcode/tree/master/2551-apply-operations-to-an-array) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/divyansh884/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Stack
 |  |
 | ------- |
