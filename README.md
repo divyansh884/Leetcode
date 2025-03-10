@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/divyansh884/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/divyansh884/Leetcode/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/divyansh884/Leetcode/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/divyansh884/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/divyansh884/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/divyansh884/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/divyansh884/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/divyansh884/Leetcode/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/divyansh884/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/divyansh884/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/divyansh884/Leetcode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/divyansh884/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [3227-find-missing-and-repeated-values](https://github.com/divyansh884/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Recursion
