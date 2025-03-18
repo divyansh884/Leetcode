@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/divyansh884/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/divyansh884/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/divyansh884/Leetcode/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/divyansh884/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/divyansh884/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1364-tuple-with-same-product](https://github.com/divyansh884/Leetcode/tree/master/1364-tuple-with-same-product) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/divyansh884/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/divyansh884/Leetcode/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/divyansh884/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/divyansh884/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/divyansh884/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
