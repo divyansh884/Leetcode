@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/divyansh884/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/divyansh884/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/divyansh884/Leetcode/tree/master/0242-valid-anagram) |
+| [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [0812-rotate-string](https://github.com/divyansh884/Leetcode/tree/master/0812-rotate-string) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/divyansh884/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
+| [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/divyansh884/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/divyansh884/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
+| [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1364-tuple-with-same-product](https://github.com/divyansh884/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/divyansh884/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -201,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/divyansh884/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
+| [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Trie
@@ -210,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## String Matching
@@ -300,4 +305,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/divyansh884/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
