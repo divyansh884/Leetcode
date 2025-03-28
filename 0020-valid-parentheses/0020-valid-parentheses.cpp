@@ -14,7 +14,6 @@ public:
                 st.pop();
             }
             else{
-                cout<<s[i];
                 st.push(s[i]);
             }
         }
