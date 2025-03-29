@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/divyansh884/Leetcode/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
+| [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/divyansh884/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0283-move-zeroes) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -331,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/divyansh884/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/divyansh884/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/divyansh884/Leetcode/tree/master/3483-alternating-groups-ii) |
@@ -401,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/divyansh884/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -424,4 +428,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/divyansh884/Leetcode/tree/master/0146-lru-cache) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
