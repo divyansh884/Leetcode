@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/divyansh884/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0283-move-zeroes) |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/divyansh884/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/divyansh884/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/divyansh884/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/divyansh884/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/divyansh884/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/divyansh884/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/divyansh884/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1034-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/divyansh884/Leetcode/tree/master/1364-tuple-with-same-product) |
@@ -279,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/divyansh884/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [0876-hand-of-straights](https://github.com/divyansh884/Leetcode/tree/master/0876-hand-of-straights) |
@@ -293,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/divyansh884/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
@@ -386,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/divyansh884/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/divyansh884/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Design
 |  |
 | ------- |
@@ -430,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 ## Merge Sort
 |  |
@@ -456,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Data Stream
 |  |
 | ------- |
