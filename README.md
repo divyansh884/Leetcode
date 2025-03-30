@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/divyansh884/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/divyansh884/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/divyansh884/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/divyansh884/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/divyansh884/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/divyansh884/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/divyansh884/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/divyansh884/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/divyansh884/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/divyansh884/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/divyansh884/Leetcode/tree/master/3483-alternating-groups-ii) |
@@ -355,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/divyansh884/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/divyansh884/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/divyansh884/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Divide and Conquer
 |  |
