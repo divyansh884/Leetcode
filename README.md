@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## String Matching
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/divyansh884/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/divyansh884/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/divyansh884/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/divyansh884/Leetcode/tree/master/0937-online-stock-span) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Ordered Set
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/divyansh884/Leetcode/tree/master/0937-online-stock-span) |
 ## Doubly-Linked List
 |  |
@@ -466,4 +469,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
