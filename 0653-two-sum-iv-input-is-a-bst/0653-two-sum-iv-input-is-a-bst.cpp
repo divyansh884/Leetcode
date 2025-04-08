@@ -12,21 +12,21 @@
  */
 class Solution {
 public:
-    void solve(TreeNode* root, set<int>& mapping) {
+    void solve(TreeNode* root, deque<int>& mapping) {
         if (root == NULL)
             return;
-        mapping.insert(root->val);
         solve(root->left, mapping);
+        mapping.push_back(root->val);
         solve(root->right, mapping);
     }
     bool findTarget(TreeNode* root, int k) {
-        set<int> mapping;
+        deque<int> mapping;
         solve(root, mapping);
         for (auto it : mapping) {
             int m = k - it;
             if(m==it)
             return false;
-            if (mapping.find(m) != mapping.end())
+            if (find(mapping.begin(),mapping.end(),m) != mapping.end())
                 return true;
         }
         return false;
