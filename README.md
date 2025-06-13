@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/divyansh884/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/divyansh884/Leetcode/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/divyansh884/Leetcode/tree/master/0213-house-robber-ii) |
 | [0338-counting-bits](https://github.com/divyansh884/Leetcode/tree/master/0338-counting-bits) |
 | [0410-split-array-largest-sum](https://github.com/divyansh884/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/divyansh884/Leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/divyansh884/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/divyansh884/Leetcode/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/divyansh884/Leetcode/tree/master/0204-count-primes) |
+| [0213-house-robber-ii](https://github.com/divyansh884/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/divyansh884/Leetcode/tree/master/0239-sliding-window-maximum) |
