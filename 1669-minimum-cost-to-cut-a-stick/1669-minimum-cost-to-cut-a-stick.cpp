@@ -1,7 +1,7 @@
 class Solution {
 public:
     int f(int i, int j, vector<int> &cuts, vector<vector<int>> &dp) {
-        if (i + 1 == j) return 0;
+        if (i + 1 == j) return 0; // no cuts in this segment
         if (dp[i][j] != -1) return dp[i][j];
 
         int mini = INT_MAX;
