@@ -1,55 +1,43 @@
+
 class Solution {
 public:
-    void bfsUtil(vector<vector<char>>& board, int i, int j, int rows, int cols) {
-        // base case
-        if (i < 0 || j < 0 || i >= rows || j >= cols || board[i][j] != 'O') {
-            return;
-        }
+	void solve(vector<vector<char>>& board) {
+        int i,j;
+        int row=board.size();
+        if(!row)
+        	return;
+        int col=board[0].size();
 
-        board[i][j] = '*';
-
-        // recursive DFS calls in all 4 directions
-        bfsUtil(board, i + 1, j, rows, cols);
-        bfsUtil(board, i, j + 1, rows, cols);
-        bfsUtil(board, i - 1, j, rows, cols);
-        bfsUtil(board, i, j - 1, rows, cols);
+		for(i=0;i<row;i++){
+			check(board,i,0,row,col);
+			if(col>1)
+				check(board,i,col-1,row,col);
+		}
+		for(j=1;j+1<col;j++){
+			check(board,0,j,row,col);
+			if(row>1)
+				check(board,row-1,j,row,col);
+		}
+		for(i=0;i<row;i++)
+			for(j=0;j<col;j++)
+				if(board[i][j]=='O')
+					board[i][j]='X';
+		for(i=0;i<row;i++)
+			for(j=0;j<col;j++)
+				if(board[i][j]=='1')
+					board[i][j]='O';
     }
-
-    void traverseBorder(vector<vector<char>>& board, int rows, int cols) {
-        // Top and bottom rows
-        for (int i = 0; i < cols; i++) {
-            if (board[0][i] == 'O') {
-                bfsUtil(board, 0, i, rows, cols);
-            }
-            if (board[rows - 1][i] == 'O') {
-                bfsUtil(board, rows - 1, i, rows, cols);
-            }
-        }
-
-        // Left and right columns
-        for (int i = 0; i < rows; i++) {
-            if (board[i][0] == 'O') {
-                bfsUtil(board, i, 0, rows, cols);
-            }
-            if (board[i][cols - 1] == 'O') {
-                bfsUtil(board, i, cols - 1, rows, cols);
-            }
-        }
-    }
-
-    void solve(vector<vector<char>>& board) {
-        int rows = board.size();
-        if (rows == 0) return;
-        int cols = board[0].size();
-        traverseBorder(board, rows, cols);
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                if (board[i][j] == 'O') {
-                    board[i][j] = 'X';
-                } else if (board[i][j] == '*') {
-                    board[i][j] = 'O';
-                }
-            }
-        }
-    }
+	void check(vector<vector<char> >&vec,int i,int j,int row,int col){
+		if(vec[i][j]=='O'){
+			vec[i][j]='1';
+			if(i>1)
+				check(vec,i-1,j,row,col);
+			if(j>1)
+				check(vec,i,j-1,row,col);
+			if(i+1<row)
+				check(vec,i+1,j,row,col);
+			if(j+1<col)
+				check(vec,i,j+1,row,col);
+		}
+	}
 };
