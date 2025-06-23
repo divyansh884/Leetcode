@@ -1,20 +1,14 @@
 class Solution {
 public:
-bool bfs(int i,vector<vector<int>>& graph,vector<int> &vis, int col){
-    queue<int> q;
-    q.push(i);
-    vis[i]=col;
-    while(!q.empty()){
-        int temp=q.front();
-        q.pop();
-        for(int j=0;j<graph[temp].size();j++){
-            if(vis[graph[temp][j]]==-1){
-                vis[graph[temp][j]]=!vis[temp];
-                q.push(graph[temp][j]);
-            }
-            else if(vis[graph[temp][j]]==vis[temp])
+bool bfs(int ind,vector<vector<int>>& graph,vector<int> &vis, int col){
+    vis[ind]=col;
+    for(int i=0;i<graph[ind].size();i++){
+        if(vis[graph[ind][i]]==-1){
+            if(!bfs(graph[ind][i],graph,vis,!col))
             return false;
         }
+        else if(vis[graph[ind][i]]==col)
+        return false;
     }
     return true;
 }
