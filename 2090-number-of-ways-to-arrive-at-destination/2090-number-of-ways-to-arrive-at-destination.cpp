@@ -4,13 +4,12 @@ class Solution {
 public:
     void bfs(int i, vector<vector<pair<int, int>>>& graph, vector<vector<long long>>& dis) {
         priority_queue<vector<long long>, vector<vector<long long>>, greater<>> pq;
-        pq.push({0, i, 1});
+        pq.push({0, i});
 
         while (!pq.empty()) {
             auto top = pq.top(); pq.pop();
             long long dist = top[0];
             int node = top[1];
-            long long cnt = top[2];
             if(dist>dis[node][0]) continue;
             for (auto& [nbr, wt] : graph[node]) {
                 long long newDist = dist + wt;
@@ -18,7 +17,7 @@ public:
                 if (newDist < dis[nbr][0]) {
                     dis[nbr][0] = newDist;
                     dis[nbr][1] = dis[node][1];
-                    pq.push({newDist, nbr, cnt});
+                    pq.push({newDist, nbr});
                 } else if (newDist == dis[nbr][0]) {
                     dis[nbr][1] = (dis[nbr][1] + dis[node][1]) % MOD;
                 }
