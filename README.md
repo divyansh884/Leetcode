@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/divyansh884/Leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/divyansh884/Leetcode/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/divyansh884/Leetcode/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0876-hand-of-straights](https://github.com/divyansh884/Leetcode/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/divyansh884/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/divyansh884/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0744-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/divyansh884/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/divyansh884/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/divyansh884/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/divyansh884/Leetcode/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/divyansh884/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/divyansh884/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/divyansh884/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -589,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/divyansh884/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/divyansh884/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/divyansh884/Leetcode/tree/master/0733-flood-fill) |
+| [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0967-minimum-falling-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/divyansh884/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/divyansh884/Leetcode/tree/master/1073-number-of-enclaves) |
@@ -616,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/divyansh884/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/divyansh884/Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/divyansh884/Leetcode/tree/master/0721-accounts-merge) |
+| [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/divyansh884/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/divyansh884/Leetcode/tree/master/1073-number-of-enclaves) |
@@ -750,6 +755,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/divyansh884/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divyansh884/Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -778,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/divyansh884/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divyansh884/Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0820-find-eventual-safe-states) |
