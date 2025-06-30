@@ -6,13 +6,12 @@ public:
         for(int i=0;i<n;i++){
             mp[nums[i]]++;
         }
-        int i=0,ans=0;
-        while(i<n){
-            if(mp[nums[i]+1]!=0){
-                int sum=mp[nums[i]]+mp[nums[i]+1];
-                ans=max(ans,sum);
+        int ans=0;
+        for( auto &it: mp){
+            if (mp.count(it.first + 1)){
+            int sum=it.second+mp[it.first+1];
+            ans=max(sum,ans);
             }
-            i++;
         }
         return ans;
     }
