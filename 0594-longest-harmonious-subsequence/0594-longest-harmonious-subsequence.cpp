@@ -13,7 +13,7 @@ public:
                 int sum=mp[nums[i]]+mp[nums[i]+1];
                 ans=max(ans,sum);
             }
-            i++;
+            i+=mp[nums[i]];
         }
         return ans;
     }
