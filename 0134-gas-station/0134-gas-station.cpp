@@ -7,7 +7,7 @@ public:
         }
         if(sum<0)
         return -1;
-        int curr_gas=0,starting_point;
+        int curr_gas=0,starting_point=0;
         for(int i=0;i<gas.size();i++){
             curr_gas+=gas[i]-cost[i];
             if(curr_gas<0)
