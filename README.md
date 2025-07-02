@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/divyansh884/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3194-find-words-containing-character](https://github.com/divyansh884/Leetcode/tree/master/3194-find-words-containing-character) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/divyansh884/Leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3617-find-the-original-typed-string-i](https://github.com/divyansh884/Leetcode/tree/master/3617-find-the-original-typed-string-i) |
 ## Greedy
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2154-minimum-moves-to-convert-string](https://github.com/divyansh884/Leetcode/tree/master/2154-minimum-moves-to-convert-string) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/divyansh884/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/divyansh884/Leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## Array
 |  |
 | ------- |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/divyansh884/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/divyansh884/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/divyansh884/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Counting
 |  |
@@ -346,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/divyansh884/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/divyansh884/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## Two Pointers
 |  |
 | ------- |
@@ -448,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/divyansh884/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3321-type-of-triangle](https://github.com/divyansh884/Leetcode/tree/master/3321-type-of-triangle) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## Trie
 |  |
 | ------- |
