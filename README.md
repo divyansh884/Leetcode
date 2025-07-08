@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/divyansh884/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/divyansh884/Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/divyansh884/Leetcode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/divyansh884/Leetcode/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/divyansh884/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/divyansh884/Leetcode/tree/master/0120-triangle) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/divyansh884/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/divyansh884/Leetcode/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/divyansh884/Leetcode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/divyansh884/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/divyansh884/Leetcode/tree/master/0075-sort-colors) |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/divyansh884/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/divyansh884/Leetcode/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/divyansh884/Leetcode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/divyansh884/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/divyansh884/Leetcode/tree/master/0079-word-search) |
