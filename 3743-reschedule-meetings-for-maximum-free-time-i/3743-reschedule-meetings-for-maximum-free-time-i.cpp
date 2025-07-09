@@ -9,11 +9,6 @@ public:
             pre=endTime[i];
         }
         ans.push_back(eventTime-pre);
-        
-        // unordered_map<int,int> mp;
-        // for(int i=1;i<=k && i<ans.size();i++){
-        //    mp[ans[i]]=i;
-        // }
         int re=0;
         for(int i=0;i<k+1 && i<ans.size();i++){
             re+=ans[i];
