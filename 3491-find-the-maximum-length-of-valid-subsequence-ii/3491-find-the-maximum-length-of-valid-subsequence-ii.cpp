@@ -1,19 +1,27 @@
 class Solution {
 public:
+int dp[1001][1001];
+int arnold(vector<int>& nums, int i , int rem, int k){
+    if(dp[i][rem]!=-1) return dp[i][rem];
+    int n = nums.size() ;
+    int x=1 ; 
+    for(int j =i+1 ; j<n ; j++){
+        if((nums[i]+nums[j])%k==rem){
+             x += arnold(nums , j , rem , k);
+            break ; 
+        }
+    }
+    return dp[i][rem]= x ; 
+}
     int maximumLength(vector<int>& nums, int k) {
-        int res = 2;
-        for (int j = 0; j < k; ++j) {
-            vector<int> dp(k, 0);
-            for (int i = 0; i < nums.size(); ++i) {
-                int mod = nums[i] % k;
-                int pos = (j - mod + k) % k;
-                dp[mod] = dp[pos] + 1;
-            }
-
-            for (int val : dp) {
-                res = max(res, val);
+        memset(dp , -1 , sizeof(dp));
+        int n = nums.size();
+        int res =1 ; 
+        for(int i =0; i<n ; i++){
+            for(int j=i+1 ; j<n ; j++){
+                res = max(res , arnold(nums , j , (nums[i]+nums[j])%k , k ));
             }
         }
-        return res;
+        return res+1; 
     }
 };
