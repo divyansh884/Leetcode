@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/divyansh884/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/divyansh884/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/divyansh884/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/divyansh884/Leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/divyansh884/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/divyansh884/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
