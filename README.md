@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/divyansh884/Leetcode/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/divyansh884/Leetcode/tree/master/0085-maximal-rectangle) |
+| [0118-pascals-triangle](https://github.com/divyansh884/Leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/divyansh884/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/divyansh884/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/divyansh884/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/divyansh884/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/divyansh884/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/divyansh884/Leetcode/tree/master/0090-subsets-ii) |
+| [0118-pascals-triangle](https://github.com/divyansh884/Leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/divyansh884/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/divyansh884/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/divyansh884/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
