@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/divyansh884/Leetcode/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/divyansh884/Leetcode/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/divyansh884/Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0826-soup-servings](https://github.com/divyansh884/Leetcode/tree/master/0826-soup-servings) |
 | [1370-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/divyansh884/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/divyansh884/Leetcode/tree/master/2050-count-good-numbers) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/divyansh884/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/divyansh884/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0826-soup-servings](https://github.com/divyansh884/Leetcode/tree/master/0826-soup-servings) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/divyansh884/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0943-sum-of-subarray-minimums](https://github.com/divyansh884/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -1012,4 +1014,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/divyansh884/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/divyansh884/Leetcode/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
