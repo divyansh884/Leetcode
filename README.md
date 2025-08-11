@@ -317,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2479-meeting-rooms-iii](https://github.com/divyansh884/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/divyansh884/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/divyansh884/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2529-range-product-queries-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2551-apply-operations-to-an-array](https://github.com/divyansh884/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/divyansh884/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
@@ -662,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/divyansh884/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2529-range-product-queries-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -705,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/divyansh884/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/divyansh884/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/divyansh884/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2529-range-product-queries-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/divyansh884/Leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/divyansh884/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Matrix
