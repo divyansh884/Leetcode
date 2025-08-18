@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/divyansh884/Leetcode/tree/master/0282-expression-add-operators) |
 | [0326-power-of-three](https://github.com/divyansh884/Leetcode/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/divyansh884/Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0679-24-game](https://github.com/divyansh884/Leetcode/tree/master/0679-24-game) |
 | [0826-soup-servings](https://github.com/divyansh884/Leetcode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/divyansh884/Leetcode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/divyansh884/Leetcode/tree/master/0900-reordered-power-of-2) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/divyansh884/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/divyansh884/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/divyansh884/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0679-24-game](https://github.com/divyansh884/Leetcode/tree/master/0679-24-game) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/divyansh884/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/divyansh884/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divyansh884/Leetcode/tree/master/0733-flood-fill) |
@@ -978,6 +980,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/divyansh884/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/divyansh884/Leetcode/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/divyansh884/Leetcode/tree/master/0494-target-sum) |
+| [0679-24-game](https://github.com/divyansh884/Leetcode/tree/master/0679-24-game) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/divyansh884/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/divyansh884/Leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Number Theory
