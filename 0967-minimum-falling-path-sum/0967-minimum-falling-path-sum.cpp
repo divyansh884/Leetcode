@@ -1,39 +1,17 @@
-int dp[101][101];
-int n;
-
-int find(int x, int y, vector<vector<int>>& g)
-{
-    if(x == n)
-        return 0;
-
-    if(dp[x][y] != -100000)
-        return dp[x][y];
-
-    int ans = g[x][y] + find(x+1, y, g);
-
-    if(y-1>=0)
-        ans = min(ans, g[x][y] + find(x+1, y-1, g) );
-
-    if(y+1!=n)
-        ans = min(ans, g[x][y] + find(x+1, y+1, g) );
-    
-    return dp[x][y] = ans;
-}
-
 class Solution {
 public:
-    int minFallingPathSum(vector<vector<int>>& mat) {
-        
-        n = mat.size();
-        int ans = 1e9;
-        
-        for(int i=0; i<101; ++i)
-            for(int j=0; j<101; ++j)
-                dp[i][j] = -100000;
+    int minFallingPathSum(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        vector<vector<int>> dp = matrix; 
+        for (int i = n - 2; i >= 0; i--) {
+            for (int j = 0; j < n; j++) {
+                int down = dp[i + 1][j];
+                int left = (j > 0 ? dp[i + 1][j - 1] : INT_MAX);
+                int right = (j < n - 1 ? dp[i + 1][j + 1] : INT_MAX);
+                dp[i][j] += min({down, left, right});
+            }
+        }
 
-        for(int i=0; i<mat.size(); ++i)
-            ans = min(ans, find(0, i, mat));
-        
-        return ans;
+        return *min_element(dp[0].begin(), dp[0].end());
     }
 };
