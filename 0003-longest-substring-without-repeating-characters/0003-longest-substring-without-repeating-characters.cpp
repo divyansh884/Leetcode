@@ -1,20 +1,26 @@
 class Solution {
 public:
-    int lengthOfLongestSubstring(std::string s) {
-        std::unordered_map<char, int> lastIndex; 
-        int maxLength = 0;
-        int left = 0; 
-        for (int right = 0; right < s.length(); right++) {
-            char ch = s[right];
-
-            if (lastIndex.find(ch) != lastIndex.end() && lastIndex[ch] >= left) {
-                left = lastIndex[ch] + 1;
+    int lengthOfLongestSubstring(string s) {
+        if(s.size()==0)
+        return 0;
+        int cnt=1;
+        int i=0,j=i+1;
+        unordered_map<char,int> mp;
+        mp[s[i]]=i;
+        while(j<s.size()){
+            if(mp.find(s[j])==mp.end()){
+                mp[s[j]]=j;
             }
-
-            lastIndex[ch] = right;
-            maxLength = std::max(maxLength, right - left + 1);
+            else{
+                while(i<=mp[s[j]]){
+                    mp.erase(s[i]);
+                    i++;
+                }
+                mp[s[j]]=j;
+            }
+            cnt=max(cnt,j-i+1);
+            j++;
         }
-
-        return maxLength;
+        return cnt;
     }
 };
