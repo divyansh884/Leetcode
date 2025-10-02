@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/divyansh884/Leetcode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/divyansh884/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1370-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1642-water-bottles](https://github.com/divyansh884/Leetcode/tree/master/1642-water-bottles) |
 | [2032-largest-odd-number-in-string](https://github.com/divyansh884/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/divyansh884/Leetcode/tree/master/2050-count-good-numbers) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/divyansh884/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -516,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/divyansh884/Leetcode/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/divyansh884/Leetcode/tree/master/0735-asteroid-collision) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
+| [1642-water-bottles](https://github.com/divyansh884/Leetcode/tree/master/1642-water-bottles) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/divyansh884/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/divyansh884/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2479-meeting-rooms-iii](https://github.com/divyansh884/Leetcode/tree/master/2479-meeting-rooms-iii) |
