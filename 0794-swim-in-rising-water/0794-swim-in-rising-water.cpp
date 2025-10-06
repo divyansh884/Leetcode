@@ -1,36 +1,32 @@
 class Solution {
 public:
- void bfs(int i, int j, vector<vector<int>>& grid,vector<vector<int>>& dis,
-             int& rown,int& coln) {
-        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>>
-            pq;
-        pq.push({grid[i][j], i, j});
-        int dx[4] = {-1, 0, 1, 0};
-        int dy[4] = {0, 1, 0, -1};
-        while (!pq.empty()) {
-            int row = pq.top()[1];
-            int col = pq.top()[2];
-            int dist = pq.top()[0];
-            pq.pop();
-           for (int dir = 0; dir < 4; dir++) {
-                int newX = row + dx[dir];
-                int newY = col + dy[dir];
-                if (newX >= 0 && newY >= 0 && newX < rown && newY < coln) {
-                    int maxeff=  max(grid[newX][newY],dist);
-                    if(maxeff<dis[newX][newY]){
-                        dis[newX][newY]=maxeff;
-                        pq.push({maxeff,newX,newY});
-                    }
+    int swimInWater(vector<vector<int>>& grid) {
+        priority_queue<vector<int>,vector<vector<int>>,greater<vector<int>>> q;
+        int n=grid.size();
+        q.push({grid[0][0],0,0});
+        int ans=grid[n-1][n-1];
+        int dx[]={-1,0,1,0};
+        int dy[]={0,1,0,-1};
+        vector<vector<int>> vis(n,vector<int>(n,-1));
+        vis[0][0]=1;
+        while(!q.empty()){
+            int x=q.top()[1];
+            int y=q.top()[2];
+            int time=q.top()[0];
+            q.pop();
+            if(x==n-1 && y==n-1){
+                ans=time;
+                break;
+            }
+            for(int i=0;i<4;i++){
+                int newx=x+dx[i],newy=y+dy[i];
+                if(newx<n && newy<n && newx>=0 && newy>=0 && vis[newx][newy]==-1){
+                    vis[newx][newy]=1;
+                    q.push({max(grid[newx][newy],time),newx,newy});
                 }
             }
         }
-    }
-    int swimInWater(vector<vector<int>>& heights) {
-         int row=heights.size();
-        int col=heights[0].size();
-        vector<vector<int>> dis(row,vector<int>(col,1e9));
-        dis[0][0]=0;
-        bfs(0,0,heights,dis,row,col);
-        return dis[row-1][col-1];
+        return ans;
+
     }
 };
