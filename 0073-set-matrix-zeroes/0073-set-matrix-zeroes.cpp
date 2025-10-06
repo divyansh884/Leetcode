@@ -1,30 +1,21 @@
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        int n= matrix.size();
-        int m= matrix[0].size();
-       unordered_map<int,bool> mp,mp1;
-       for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            if(matrix[i][j]==0){
-                mp[i]=true;
-                mp1[j]=true;
+        unordered_map<int,bool> mrow,mcol;
+        for(int i=0;i<matrix.size();i++){
+            for(int j=0;j<matrix[0].size();j++){
+                if(matrix[i][j]==0){
+                    mrow[i]=true;
+                    mcol[j]=true;
+                }
             }
         }
-       } 
-       for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            if(mp[i]==true){
-                matrix[i][j]=0;
+        for(int i=0;i<matrix.size();i++){
+            for(int j=0;j<matrix[0].size();j++){
+                if(mrow.find(i)!=mrow.end()|| mcol.find(j)!=mcol.end()){
+                    matrix[i][j]=0;
+                }
             }
         }
-       }
-       for(int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
-            if(mp1[i]==true){
-                matrix[j][i]=0;
-            }
-        }
-       }
     }
 };
