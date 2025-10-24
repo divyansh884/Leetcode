@@ -1,29 +1,27 @@
 class Solution {
 public:
-    int solve(vector<int>& bloomDay, int mid, int k) {
-        int ans = 0;
-        int temp = 0;
-        for (auto it : bloomDay) {
-            if (it <= mid)
-                temp++;
-            else {
-                temp = 0;
-            }
-            if (temp == k) {
-                ans++;
-                temp = 0;
-            }
-        }
-        return ans;
-    }
     int minDays(vector<int>& bloomDay, int m, int k) {
-        int low = *min_element(bloomDay.begin(), bloomDay.end());
-        int high = *max_element(bloomDay.begin(), bloomDay.end());
+        int n = bloomDay.size();
+        int high = 0, low = INT_MAX;
+        for (int i = 0; i < n; i++) {
+            high = max(high, bloomDay[i]);
+            low = min(low, bloomDay[i]);
+        }
         int ans = -1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            int temp = solve(bloomDay, mid, k);
-            if (temp >= m) {
+            int cnt = 0, bq = 0;
+            for (int i = 0; i < n; i++) {
+                if (bloomDay[i] <= mid) {
+                    cnt++;
+                    if (cnt == k) {
+                        bq++;
+                        cnt = 0;
+                    }
+                } else
+                    cnt = 0;
+            }
+            if (bq >= m) {
                 ans = mid;
                 high = mid - 1;
             } else
