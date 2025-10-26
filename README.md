@@ -341,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/divyansh884/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/divyansh884/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/divyansh884/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2169-simple-bank-system](https://github.com/divyansh884/Leetcode/tree/master/2169-simple-bank-system) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/divyansh884/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2227-sum-of-subarray-ranges](https://github.com/divyansh884/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/divyansh884/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -437,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/divyansh884/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/divyansh884/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/divyansh884/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2169-simple-bank-system](https://github.com/divyansh884/Leetcode/tree/master/2169-simple-bank-system) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/divyansh884/Leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/divyansh884/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
@@ -549,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1642-water-bottles](https://github.com/divyansh884/Leetcode/tree/master/1642-water-bottles) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/divyansh884/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2169-simple-bank-system](https://github.com/divyansh884/Leetcode/tree/master/2169-simple-bank-system) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/divyansh884/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/divyansh884/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2479-meeting-rooms-iii](https://github.com/divyansh884/Leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -768,6 +771,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/divyansh884/Leetcode/tree/master/0937-online-stock-span) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/divyansh884/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2169-simple-bank-system](https://github.com/divyansh884/Leetcode/tree/master/2169-simple-bank-system) |
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Ordered Set
 |  |
