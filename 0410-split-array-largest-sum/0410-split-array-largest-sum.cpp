@@ -1,35 +1,36 @@
 class Solution {
 public:
-    vector<int> solve(vector<int>& boards, int mid, int k) {
-        int temp = 1;
+    bool check(vector<int>& nums, int k, int mid) {
+        int cnt = 1;
         int sum = 0;
-        int maxi = INT_MIN;
-        for (auto it : boards) {
-            if (sum + it <= mid) {
-                sum += it;
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] > mid) {
+                cnt++;
+                sum = 0;
+                continue;
+            }
+            if (sum + nums[i] <= mid) {
+                sum += nums[i];
             } else {
-                if (it > mid)
-                    return {k+1,maxi};
-                maxi=max(maxi,sum);
-                temp++;
-                sum = it;
+                cnt++;
+                sum = nums[i];
             }
         }
-        maxi=max(maxi,sum);
-        return {temp,maxi};
+        return cnt<=k;
     }
     int splitArray(vector<int>& nums, int k) {
-        int low = 0, ans = -1;
-        int high = accumulate(nums.begin(), nums.end(),0);
+        int high = 0, low = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            low = max(low, nums[i]);
+            high += nums[i];
+        }
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            vector<int> temp = solve(nums, mid, k);
-            if (temp[0] <= k) {
-                ans = temp[1];
-                high = mid - 1;
-            } else
-                low = mid + 1;
+            if(check(nums,k,mid))
+            high=mid-1;
+            else
+            low=mid+1;
         }
-        return ans;
+        return low;
     }
 };
