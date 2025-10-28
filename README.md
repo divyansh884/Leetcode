@@ -379,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3483-alternating-groups-ii](https://github.com/divyansh884/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/divyansh884/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/divyansh884/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/divyansh884/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/divyansh884/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/divyansh884/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -563,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3336-water-bottles-ii](https://github.com/divyansh884/Leetcode/tree/master/3336-water-bottles-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/divyansh884/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/divyansh884/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/divyansh884/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3790-fruits-into-baskets-ii](https://github.com/divyansh884/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/divyansh884/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3905-partition-string](https://github.com/divyansh884/Leetcode/tree/master/3905-partition-string) |
@@ -750,6 +752,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/divyansh884/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2529-range-product-queries-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2529-range-product-queries-of-powers) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/divyansh884/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/divyansh884/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Divide and Conquer
