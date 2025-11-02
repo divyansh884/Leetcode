@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/divyansh884/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/2316-count-hills-and-valleys-in-an-array) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/divyansh884/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/divyansh884/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/divyansh884/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2479-meeting-rooms-iii](https://github.com/divyansh884/Leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -560,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2169-simple-bank-system](https://github.com/divyansh884/Leetcode/tree/master/2169-simple-bank-system) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/divyansh884/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/divyansh884/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/divyansh884/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2479-meeting-rooms-iii](https://github.com/divyansh884/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2551-apply-operations-to-an-array](https://github.com/divyansh884/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -834,6 +836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/divyansh884/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/divyansh884/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/divyansh884/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/divyansh884/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/divyansh884/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/divyansh884/Leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## Recursion
