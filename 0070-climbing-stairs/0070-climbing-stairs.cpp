@@ -1,17 +1,19 @@
 class Solution {
 public:
-int f(int n,vector<int> &dp){
-    if(n==0)
+int f(int strt,int n,vector<int> &dp){
+if(strt>=n){
+    if(strt==n)
     return 1;
-    if(dp[n]!=-1)return dp[n];
-    int take2=0;
-    if(n>=2)
-    take2+=f(n-2,dp);
-    int take1=f(n-1,dp);
-    return dp[n]=take2+take1;
+    return 0;
+}
+if(dp[strt]!=-1) return dp[strt];
+int op1=f(strt+1,n,dp);
+int op2=f(strt+2,n,dp);
+return dp[strt]=op1+op2;
 }
     int climbStairs(int n) {
-        vector<int> dp(n+1,-1);
-        return f(n,dp);
+       int strt=0;
+       vector<int> dp(n+1,-1);
+       return f(strt,n,dp); 
     }
 };
