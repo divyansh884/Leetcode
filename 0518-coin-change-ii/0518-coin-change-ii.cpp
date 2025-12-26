@@ -1,22 +1,20 @@
 class Solution {
 public:
-int f(int index,vector<int> & coins,int amount,int n,vector<vector<int>> &dp){
-    if(index==0){
-        if(amount%coins[0]==0){
-            return 1;
-        }
-        return 0;
-    }
-    if(dp[index][amount]!=-1) return dp[index][amount];
-    int take=0,ntake=0;
-    ntake+=f(index-1,coins,amount,n,dp);
-    if(amount>=coins[index]) take+=f(index,coins,amount-coins[index],n,dp);
-    return dp[index][amount]=take+ntake;
+int f(int i,int left,vector<int> &coins, vector<vector<int>> &dp){
+    if(left==0)
+    return 1;
+    if(i>=coins.size())
+    return 0;
+    if(dp[i][left]!=-1) return dp[i][left];
+    int take=0;
+    if(left-coins[i]>=0)
+    take=f(i,left-coins[i],coins,dp);
+    int ntake=f(i+1,left,coins,dp);
+    return dp[i][left]=take+ntake;
 }
-    int change(int amount, vector<int>& coins) {
-      int n=coins.size(),index=n-1,cnt=0;
-        vector<vector<int>> dp(n,vector<int>(amount+1,-1));
-        int res=f(index,coins,amount,n,dp);
-        return res;
+    int change(int amount,vector<int>& coins) {
+        vector<vector<int>> dp(coins.size(),vector<int>(amount+1,-1));
+        int re=f(0,amount,coins,dp);
+        return re;
     }
 };
