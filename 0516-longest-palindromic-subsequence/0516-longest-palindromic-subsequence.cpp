@@ -1,23 +1,23 @@
 class Solution {
-public:int f(int index1,int index2,string &text1, string &text2,vector<vector<int>> &dp){
-    if(index1<0 || index2<0)
-    return 0;
-    int take=0,ntake=0;
-    if(dp[index1][index2]!=-1) return dp[index1][index2];
-    if(text1[index1]==text2[index2]){
-        take+=1+f(index1-1,index2-1,text1,text2,dp);
+public:
+    int f(int i, int j, string& text1, string& text2, vector<vector<int>>& dp) {
+        if (i < 0 || j < 0)
+            return 0;
+        if (dp[i][j] != -1)
+            return dp[i][j];
+        int match = 0, nmatch1 = 0, nmatch2 = 0;
+        if (text1[i] == text2[j])
+            match = 1 + f(i - 1, j - 1, text1, text2, dp);
+        else {
+            nmatch1 = f(i - 1, j, text1, text2, dp);
+            nmatch2 = f(i, j - 1, text1, text2, dp);
+        }
+        return dp[i][j] = max(match, max(nmatch1, nmatch2));
     }
-    if(text1[index1]!=text2[index2]){
-        ntake+=max(f(index1-1,index2,text1,text2,dp),f(index1,index2-1,text1,text2,dp));
-    }
-    return dp[index1][index2]=max(take,ntake);
-}
     int longestPalindromeSubseq(string s) {
-        int index1=s.size()-1;
-        int index2=s.size()-1;
-        vector<vector<int>> dp(index1+1,vector<int>(index2+1,-1));
         string s1=s;
         reverse(s1.begin(),s1.end());
-        return f(index1,index2,s,s1,dp);
+        vector<vector<int>> dp(s1.size(),vector<int>(s.size(),-1));
+        return f(s.size()-1,s.size()-1,s,s1,dp);
     }
 };
