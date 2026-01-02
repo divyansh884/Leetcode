@@ -4,7 +4,6 @@ public:
         sort(nums.begin(), nums.end());
         int cnt = 0, num = nums[0];
         int n = nums.size() / 2;
-        cout << n << endl;
         for (auto it : nums) {
             if (it == num)
                 cnt++;
