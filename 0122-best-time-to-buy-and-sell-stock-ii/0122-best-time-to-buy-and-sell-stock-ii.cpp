@@ -1,17 +1,22 @@
 class Solution {
 public:
+ int f(int i, int buy,vector<int> &prices,vector<vector<int>> &dp){
+    if(i>=prices.size())
+    return 0;
+    int take=0;
+    int pf1=0,pf2=0;
+    if(dp[i][buy]!=-1)return dp[i][buy];
+    if(buy){
+        pf1=max(-prices[i]+f(i+1,0,prices,dp),f(i+1,1,prices,dp));
+    }
+    else{
+        pf2=max(prices[i]+f(i+1,1,prices,dp),f(i+1,0,prices,dp));
+    }
+    return dp[i][buy]=max(pf1,pf2);
+ }
     int maxProfit(std::vector<int>& prices) {
-        int buy = prices[0];
-        int profit = 0;
-        for (int i = 1; i < prices.size(); i++) {
-            if (prices[i] <= buy) {
-                buy = prices[i];
-            }
-            else {
-                profit+=prices[i]-buy;
-                buy=prices[i];
-            }
-        }
-        return profit;
+        vector<vector<int>> dp(prices.size(),vector<int>(2,-1));
+        return f(0,1,prices,dp);
+        
     }
 };
