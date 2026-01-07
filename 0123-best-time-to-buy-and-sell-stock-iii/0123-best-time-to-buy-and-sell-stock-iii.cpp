@@ -1,18 +1,21 @@
 class Solution {
 public:
+int f(int i,int buy,int cnt,vector<int> &prices,vector<vector<vector<int>>> &dp){
+    if(i>=prices.size() || cnt>=2)
+    return 0;
+    int take=0,ntake=0;
+     if(dp[i][buy][cnt]!=-1) return dp[i][buy][cnt];
+    if(buy){
+        take=max(-prices[i]+f(i+1,0,cnt,prices,dp),f(i+1,1,cnt,prices,dp));
+        
+    }
+    else{
+        ntake=max(prices[i]+f(i+1,1,cnt+1,prices,dp),f(i+1,0,cnt,prices,dp));
+    }
+    return dp[i][buy][cnt]=max(ntake,take);
+}
     int maxProfit(vector<int>& prices) {
-        if(!prices.size())
-            return 0;
-        int buy1    = INT_MAX;
-        int profit1 = INT_MIN;
-        int buy2    = INT_MAX;
-        int profit2 = INT_MIN;
-        for(int i = 0; i < prices.size(); i++){
-            buy1    = min(buy1, prices[i]);
-            profit1 = max(profit1, prices[i] - buy1);
-            buy2    = min(buy2, prices[i] - profit1);
-            profit2 = max(profit2, prices[i] - buy2);
-        }
-        return profit2;
+        vector<vector<vector<int>>> dp(prices.size(),vector<vector<int>>(2,vector<int>(2,-1)));
+        return f(0,1,0,prices,dp);
     }
 };
