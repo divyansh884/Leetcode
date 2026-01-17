@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/divyansh884/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/divyansh884/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2649-count-total-number-of-colored-cells](https://github.com/divyansh884/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/divyansh884/Leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3227-find-missing-and-repeated-values](https://github.com/divyansh884/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/divyansh884/Leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3321-type-of-triangle](https://github.com/divyansh884/Leetcode/tree/master/3321-type-of-triangle) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2689-rearranging-fruits](https://github.com/divyansh884/Leetcode/tree/master/2689-rearranging-fruits) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/divyansh884/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/divyansh884/Leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/divyansh884/Leetcode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/divyansh884/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/divyansh884/Leetcode/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
@@ -1194,5 +1196,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1266-minimum-time-visiting-all-points](https://github.com/divyansh884/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/divyansh884/Leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/divyansh884/Leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 <!---LeetCode Topics End-->
