@@ -1,58 +1,35 @@
-#define LC_HaCK
-#ifdef LC_HaCK
-const auto __ = []() {
-    struct _ {
-        static void __() { std::ofstream("display_runtime.txt") << 0 << std::endl; }
-    };
-    std::atexit(&_::__);
-    return 0;
-}();
-#endif
-
 class Solution {
 public:
-void bfs(int i, int j, vector<vector<char>>& grid,vector<vector<int>>& vis,int m,int n){
-    queue<vector<int>> q;
-    q.push({i,j});
-    vis[i][j]=1;
-    while(!q.empty()){
-        vector<int> temp=q.front();
-        q.pop();
-        if(temp[0]-1>=0){
-        if(grid[temp[0]-1][temp[1]]=='1'  && !vis[temp[0]-1][temp[1]]) {
-            q.push({temp[0]-1,temp[1]});
-            vis[temp[0]-1][temp[1]]=1;
-        }
-        }
-        if(temp[1]+1<m){
-        if(grid[temp[0]][temp[1]+1]=='1'  && !vis[temp[0]][temp[1]+1]) {
-            q.push({temp[0],temp[1]+1});
-            vis[temp[0]][temp[1]+1]=1;
-        }
-        }
-         if(temp[0]+1<n){
-        if(grid[temp[0]+1][temp[1]]=='1'  && !vis[temp[0]+1][temp[1]]) {
-            q.push({temp[0]+1,temp[1]});
-            vis[temp[0]+1][temp[1]]=1;
-        }
-        }
-         if(temp[1]-1>=0){
-        if(grid[temp[0]][temp[1]-1]=='1'  && !vis[temp[0]][temp[1]-1]) {
-            q.push({temp[0],temp[1]-1});
-            vis[temp[0]][temp[1]-1]=1;
-        }
+    void f(int i, int j, vector<vector<char>>& grid, vector<vector<int>>& vis) {
+        queue<pair<int, int>> q;
+        q.push({i, j});
+        int dx[] = {-1, 0, 1, 0};
+        int dy[] = {0, 1, 0, -1};
+        while (!q.empty()) {
+            int row = q.front().first;
+            int col = q.front().second;
+            q.pop();
+            for (int i = 0; i < 4; i++) {
+                int newx = row + dx[i];
+                int newy = col + dy[i];
+                if (newx >= 0 && newy >= 0 && newx < grid.size() &&
+                    newy < grid[0].size() && grid[newx][newy] == '1' &&
+                    vis[newx][newy] == -1) {
+                    vis[newx][newy] = 1;
+                    q.push({newx, newy});
+                }
+            }
         }
     }
-}
     int numIslands(vector<vector<char>>& grid) {
-        int n=grid.size(),m=grid[0].size();
-        vector<vector<int>> vis(n,vector<int>(m,0));
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(grid[i][j]=='1' && vis[i][j]==0){
+        int cnt = 0;
+        vector<vector<int>> vis(grid.size(), vector<int>(grid[0].size(), - 1));
+        for (int i = 0; i < grid.size(); i++) {
+            for (int j = 0; j < grid[0].size(); j++) {
+                if (grid[i][j] == '1' && vis[i][j] == -1) {
+                    vis[i][j] = 1;
                     cnt++;
-                    bfs(i,j,grid,vis,m,n);
+                    f(i, j, grid, vis);
                 }
             }
         }
