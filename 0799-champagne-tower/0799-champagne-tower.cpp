@@ -1,8 +1,6 @@
 class Solution {
 public:
     double champagneTower(int poured, int query_row, int query_glass) {
-        // if (poured >= 5050)
-        //     return double(1);
         vector<vector<double>> glass;
         for (double i = 1; i <= 100; i++) {
             vector<double> re(i, double(0));
