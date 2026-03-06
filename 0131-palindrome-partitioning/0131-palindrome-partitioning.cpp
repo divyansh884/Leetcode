@@ -1,42 +1,39 @@
 class Solution {
 public:
 
-    bool isPalindrome(string &s, int l, int r){
-        while(l < r){
-            if(s[l] != s[r])
+    bool pali(string &s){
+        for(int i = 0; i < s.size()/2; i++){
+            if(s[i] != s[s.size()-1-i])
                 return false;
-            l++;
-            r--;
         }
         return true;
     }
 
-    void f(int start, string &s, vector<string> &path, vector<vector<string>> &ans){
+    void f(vector<vector<string>> &ans, string temp, vector<string> tt, int i, string &s){
 
-        if(start == s.size()){
-            ans.push_back(path);
+        if(i == s.size()){
+            if(temp == "")
+                ans.push_back(tt);
             return;
         }
 
-        for(int end = start; end < s.size(); end++){
-
-            if(isPalindrome(s, start, end)){
-
-                path.push_back(s.substr(start, end - start + 1));
-
-                f(end + 1, s, path, ans);
-
-                path.pop_back(); 
-            }
+        temp.push_back(s[i]);
+        if(pali(temp)){
+            vector<string> tt2 = tt;
+            tt2.push_back(temp);
+            f(ans, "", tt2, i+1, s);
         }
+
+        f(ans, temp, tt, i+1, s);
     }
 
     vector<vector<string>> partition(string s) {
 
         vector<vector<string>> ans;
-        vector<string> path;
+        string temp = "";
+        vector<string> tt;
 
-        f(0, s, path, ans);
+        f(ans, temp, tt, 0, s);
 
         return ans;
     }
