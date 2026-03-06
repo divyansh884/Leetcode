@@ -1,26 +1,24 @@
 class Solution {
 public:
     string frequencySort(string s) {
-        unordered_map<char,int> mapping;
-        for(int i=0;i<s.size();i++){
-            mapping[s[i]]++;
+        priority_queue<pair<int,char>> pq;
+        unordered_map<char,int> mp;
+        for( auto it: s){
+            mp[it]++;
         }
-        vector<pair<int,char>> vp;
-        for(auto it:mapping){
-            vp.push_back(make_pair(it.second,it.first));
+        for( auto it: mp){
+            pq.push({it.second,it.first});
         }
-        sort(vp.begin(),vp.end(),[](const pair<int, int>& a, const pair<int, int>& b) {
-        if (a.first != b.first) {
-            return a.first > b.first; 
-        } else {
-            return a.second < b.second;
+        string ans="";
+        while(!pq.empty()){
+            int cnt=pq.top().first;
+            char cc= pq.top().second;
+            pq.pop();
+            while(cnt!=0){
+                ans+=cc;
+                cnt--;
+            }
         }
-    });
-    string rs="";
-    for(int i=0;i<vp.size();i++){
-        while(vp[i].first--)
-        rs+=vp[i].second;
-    }
-    return rs;
+        return ans;
     }
 };
