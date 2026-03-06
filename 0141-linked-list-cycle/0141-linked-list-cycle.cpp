@@ -8,18 +8,18 @@
  */
 class Solution {
 public:
-    bool hasCycle(ListNode *head) {
-        if(!head)
-        return false;
-        ListNode* fwdptr=head; 
-        ListNode* backptr=head;
-        while(fwdptr->next!=NULL){
-            fwdptr=fwdptr->next->next;
-            if(fwdptr==NULL)
+    bool hasCycle(ListNode* head) {
+        if (!head)
             return false;
-            if(fwdptr==backptr)
-            return true;
-            backptr=backptr->next;
+        ListNode* fwdptr = head;
+        ListNode* backptr = head;
+        while (fwdptr->next != NULL) {
+            fwdptr = fwdptr->next->next;
+            backptr = backptr->next;
+            if (fwdptr == NULL)
+                return false;
+            if (fwdptr == backptr)
+                return true;
         }
         return false;
     }
