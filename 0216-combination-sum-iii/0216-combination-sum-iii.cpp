@@ -6,9 +6,7 @@ void solve(int index,int &sum, vector<vector<int>> &ans,int k, int n,vector<int>
         ans.push_back(qd);
         return;
     }
-    if(sum>=n && qd.size()<k)
-    return;
-    if(sum<n && qd.size()>=k)
+    if(sum>n)
     return;
     for(int i=index;i<=9;i++){
         qd.push_back(i);
