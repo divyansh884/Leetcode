@@ -1,46 +1,33 @@
-#include <vector>
-#include <string>
-#include <unordered_map>
-#include <utility>
-using namespace std;
-
-// Custom hash for pair<int, int>
-struct pair_hash {
-    size_t operator()(const pair<int, int>& p) const {
-        return hash<int>()(p.first) ^ (hash<int>()(p.second) << 1);
-    }
-};
-
 class Solution {
 public:
-    bool solve(int index, int row, int col, vector<vector<char>>& board,
-               string& word, int n, unordered_map<pair<int, int>, bool, pair_hash>& mp) {
-        if (index >= n) return true;
-
-        int dirs[4][2] = {{1,0}, {-1,0}, {0,1}, {0,-1}};
-        for (auto& d : dirs) {
-            int newRow = row + d[0];
-            int newCol = col + d[1];
-            if (newRow >= 0 && newRow < board.size() && newCol >= 0 && newCol < board[0].size()) {
-                if (board[newRow][newCol] == word[index] && !mp[{newRow, newCol}]) {
-                    mp[{newRow, newCol}] = true;
-                    if (solve(index + 1, newRow, newCol, board, word, n, mp))
+    bool f(int i, int j, vector<vector<char>>& bb, string& word, int index) {
+        if (index == word.size()) {
+            return true;
+        }
+        char temp=bb[i][j];
+        bb[i][j]='#';
+        bool tt = false;
+        int dx[] = {-1, 0, 1, 0};
+        int dy[] = {0, 1, 0, -1};
+        for (int index1 = 0; index1 < 4; index1++) {
+            int newx = i + dx[index1];
+            int newy = j + dy[index1];
+            if (newx < bb.size() && newy < bb[0].size() && newx >= 0 &&
+                newy >= 0) {
+                if (bb[newx][newy] == word[index]) {
+                   if(f(newx,newy,bb,word,index+1))
                         return true;
-                    mp[{newRow, newCol}] = false;  // Backtrack here
                 }
             }
         }
-        return false;
+        bb[i][j]=temp;
+        return tt;
     }
-
     bool exist(vector<vector<char>>& board, string word) {
-        int n = word.size();
         for (int i = 0; i < board.size(); i++) {
             for (int j = 0; j < board[0].size(); j++) {
                 if (board[i][j] == word[0]) {
-                    unordered_map<pair<int, int>, bool, pair_hash> mp;
-                    mp[{i, j}] = true;
-                    if (solve(1, i, j, board, word, n, mp))
+                    if (f(i, j, board, word, 1))
                         return true;
                 }
             }
