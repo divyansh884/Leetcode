@@ -1,26 +1,26 @@
 class Solution {
 public:
-    void backtrack(int open, int close, string &s, vector<string> &ans) {
-        if (open == 0 && close == 0) {
-            ans.push_back(s);
+    void f(vector<string>& ans, string& temp, int n1,int n2) {
+        if (n1 == 0 && n2 == 0) {
+            ans.push_back(temp);
             return;
         }
-        if (open > 0) {
-            s.push_back('(');
-            backtrack(open - 1, close, s, ans);
-            s.pop_back();
+        if(n1!=0){
+            temp.push_back('(');
+            f(ans,temp,n1-1,n2);
+            temp.pop_back();
         }
-        if (close > open) {
-            s.push_back(')');
-            backtrack(open, close - 1, s, ans);
-            s.pop_back();
+        if(n2 > n1){
+            temp.push_back(')');
+            f(ans,temp,n1,n2-1);
+            temp.pop_back();
         }
     }
-
     vector<string> generateParenthesis(int n) {
         vector<string> ans;
-        string s = "";
-        backtrack(n, n, s, ans);
+        string temp="";
+        int n1=n,n2=n;
+        f(ans,temp,n1,n2);
         return ans;
     }
 };
