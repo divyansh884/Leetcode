@@ -1,36 +1,31 @@
 class Solution {
 public:
-    bool check(vector<int>& nums, int k, int mid) {
-        int cnt = 1;
-        int sum = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] > mid) {
-                cnt++;
-                sum = 0;
-                continue;
-            }
-            if (sum + nums[i] <= mid) {
-                sum += nums[i];
-            } else {
-                cnt++;
-                sum = nums[i];
-            }
-        }
-        return cnt<=k;
-    }
     int splitArray(vector<int>& nums, int k) {
-        int high = 0, low = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            low = max(low, nums[i]);
-            high += nums[i];
-        }
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            if(check(nums,k,mid))
-            high=mid-1;
+       int low=-1,n=nums.size();
+       int high=0,ans=-1;
+       for(int i=0;i<n;i++){
+        low= max(low,nums[i]);
+        high+=nums[i];
+       }
+       while(low<=high){
+        int mid=low+(high-low)/2;
+        int cnt=1;
+        int we=0;
+        for(int i=0;i<n;i++){
+            if(we+nums[i]>mid){
+                we=nums[i];
+                cnt++;
+            }
             else
-            low=mid+1;
+            we+=nums[i];
         }
-        return low;
+        if(cnt<=k){
+            ans=mid;
+            high=mid-1;
+        }
+        else if(cnt>k)
+        low=mid+1;
+       }
+       return ans;
     }
 };
