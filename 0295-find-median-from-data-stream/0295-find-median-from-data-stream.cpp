@@ -23,10 +23,10 @@ public:
                 if (pq1.size() > pq2.size())
                     pq2.push(num);
                 else {
-                    int tt = pq1.top();
-                    pq1.pop();
-                    pq2.push(tt);
-                    pq1.push(num);
+                    int tt = pq2.top();
+                    pq2.pop();
+                    pq1.push(tt);
+                    pq2.push(num);
                 }
         }
         else if(num>pq1.size() && num<pq2.size() && pq1.size()==pq2.size()){
