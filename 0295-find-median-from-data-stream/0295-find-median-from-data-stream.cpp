@@ -29,7 +29,7 @@ public:
                     pq2.push(num);
                 }
         }
-        else if(num>pq1.size() && num<pq2.size() && pq1.size()==pq2.size()){
+        else if(num>pq1.top() && num<pq2.top() && pq1.size()==pq2.size()){
                 pq1.push(num);
         }
         else{
