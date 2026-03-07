@@ -1,48 +1,31 @@
 class Solution {
-    vector<int> nextgreater(vector<int> nums,int n){
-        stack<int> s;
-        s.push(-1);
-        vector<int> ans(n);
-        for(int i=n-1;i>=0;i--){
-            int curr= nums[i];
-        while(s.size()!=1 && s.top()<=curr){
-            s.pop();
-        }
-        ans[i]=s.top();
-        s.push(curr);
-        }
-        return ans;
-    }
-    int prevcheck(stack<int> ans,int target){
-        while(ans.size()!=0){
-            if(ans.top()>target)
-            return ans.top();
-            ans.pop();
-        }
-        return -1;
-    }
-    bool check(int i,vector<int> nums){
-        for(int j=i+1;j<nums.size();j++){
-            if(nums[j]>nums[i])
-            return false;
-        }
-        return true;
-    }
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
-        int n= nums.size();
-        vector<int> next(n);
-        next= nextgreater(nums,n);
+        int st = 0, n = nums.size();
+        for (int i = 1; i < n; i++) {
+            if (nums[i] >= nums[st])
+                st = i;
+        }
+        vector<int> ans(n);
         stack<int> s;
-        for(int i=n-1;i>=0;i--){
+        int i = st;
+        ans[i] = -1;
+        s.push(nums[i]);
+        i--;
+        if (i < 0)
+            i = n - 1;
+        while (i != st) {
+            while (!s.empty() && nums[i] >= s.top())
+                s.pop();
+            if (s.empty()) {
+                ans[i] = -1;
+            } else
+                ans[i] = s.top();
             s.push(nums[i]);
+            i--;
+            if (i < 0)
+                i = n - 1;
         }
-        for(int i=0;i<n;i++){
-             if(next[i]==-1 && nums[i]>=0)
-             next[i]=prevcheck(s,nums[i]);
-             else if(next[i]==-1 && nums[i]<0 &&check(i,nums))
-             next[i]=prevcheck(s,nums[i]);
-        }
-        return next;
+        return ans;
     }
 };
