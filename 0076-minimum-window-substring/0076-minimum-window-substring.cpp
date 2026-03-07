@@ -1,25 +1,50 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-       int i=0,j=0,cnt=0,minlen=INT_MAX,stindex=-1;
-       unordered_map<int,int> mp;
-       for( int m=0;m<t.size();m++){
-        mp[t[m]]++;
-       }
-       while(j<s.size()){
-        if(mp[s[j]]>0)cnt++;
-        mp[s[j]]--;
-        while(cnt==t.size()){
-            if(j-i+1<minlen){
-                minlen=j-i+1;
-                stindex=i;
+
+        unordered_map<char,int> mp,tp;
+
+        for(auto c:t)
+            tp[c]++;
+
+        int i=0,j=0;
+        int start=-1,minLen=INT_MAX;
+
+        while(j<s.size()){
+
+            mp[s[j]]++;
+
+            bool check=true;
+
+            for(auto it:tp){
+                if(mp[it.first] < it.second){
+                    check=false;
+                    break;
+                }
             }
-            mp[s[i]]++;
-            if(mp[s[i]]>0)cnt--;
-            i++;
+
+            while(check){
+
+                if(minLen > j-i+1){
+                    minLen = j-i+1;
+                    start = i;
+                }
+
+                mp[s[i]]--;
+                i++;
+
+                for(auto it:tp){
+                    if(mp[it.first] < it.second){
+                        check=false;
+                        break;
+                    }
+                }
+            }
+
+            j++;
         }
-        j++;
-       }
-       return stindex== -1? "":s.substr(stindex,minlen);
+
+        if(start==-1) return "";
+        return s.substr(start,minLen);
     }
 };
