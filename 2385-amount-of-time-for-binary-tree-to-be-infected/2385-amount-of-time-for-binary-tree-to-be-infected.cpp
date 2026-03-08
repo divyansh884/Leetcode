@@ -25,31 +25,45 @@ public:
         dfs(root->left, mp, ans, st);
         dfs(root->right, mp, ans, st);
     }
-    int dist(TreeNode* root) {
-        if (!root)
-            return -1;
-        int left = 1 + dist(root->left);
-        int right = 1 + dist(root->right);
-        return max(left, right);
+    void f(TreeNode* root, unordered_map<TreeNode*, TreeNode*>& parent) {
+        if (root == NULL)
+            return;
+        if (root->left)
+            parent[root->left] = root;
+        if (root->right)
+            parent[root->right] = root;
+        f(root->left, parent);
+        f(root->right, parent);
     }
     int amountOfTime(TreeNode* root, int start) {
-        unordered_map<TreeNode*, TreeNode*> mp;
         TreeNode* st = NULL;
-        mp[root] = NULL;
-        dfs(root, mp, st, start);
-        int take = dist(st);
-        int dd = 0;
-        while (mp[st] != NULL) {
-            TreeNode* parent = mp[st];
-            dd++;
-            int d = 0;
-            if (parent->left && parent->left != st)
-                d = 1 + dist(parent->left);
-            if (parent->right && parent->right != st)
-                d = 1 + dist(parent->right);
-            take = max(dd + d, take);
-            st = parent;
-        }
-        return take;
+        unordered_map<TreeNode*, TreeNode*> parent;
+         dfs(root, parent, st, start);
+        unordered_map<TreeNode*, bool> visited;
+        queue<TreeNode*> q;
+        q.push(st);
+        visited[st] = true;
+        int dist = 0;
+        while (!q.empty()) {
+            int size = q.size();
+            dist++;
+            for (int i = 0; i < size; i++) {
+                TreeNode* temp = q.front();
+                q.pop();
+                if (temp->left && !visited[temp->left]) {
+                    q.push(temp->left);
+                    visited[temp->left] = true;
+                }
+                if (temp->right && !visited[temp->right]) {
+                    q.push(temp->right);
+                    visited[temp->right] = true;
+                }
+                if (parent[temp] && !visited[parent[temp]]) {
+                    q.push(parent[temp]);
+                    visited[parent[temp]] = true;
+                }
+            }
+        } 
+         return dist-1;
     }
 };
