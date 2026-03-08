@@ -11,25 +11,23 @@
  */
 class Solution {
 public:
-bool isSameTree(TreeNode* p, TreeNode* q) {
-        if(p==NULL && q==NULL)
-        return true;
-        if(p==NULL && q!=NULL)
-        return false;
-        if(p!=NULL && q==NULL)
-        return false;
-        bool left=isSameTree(p->left,q->right);
-        bool right=isSameTree(p->right,q->left);
-        bool val= p->val==q->val;
-        if(left && right&& val)
-        return true;
-        return false;
-    }
+bool check(TreeNode *p,TreeNode*q){
+    if(p==NULL && q==NULL)
+    return true;
+    if(p==NULL && q!=NULL)
+    return false;
+    if(p!=NULL && q==NULL)
+    return false;
+    bool cc= check(p->left,q->right);
+    bool cc1= check(p->right,q->left);
+    bool cc2= p->val==q->val;
+    if(cc1 && cc2 & cc)
+    return true;
+    return false;
+}
     bool isSymmetric(TreeNode* root) {
         if(root==NULL)
         return true;
-        TreeNode* p=root->left;
-        TreeNode* q=root->right;
-        return isSameTree(p,q);
+        return check(root->left , root->right);
     }
 };
