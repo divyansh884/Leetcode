@@ -20,11 +20,11 @@ public:
             int col = q.front().second;
             q.pop();
             if (row == -1 && col == -1) {
-                if (check)
-                    cnt++;
-                if (!q.empty())
+                if (!q.empty()){
                     q.push({-1,- 1});
-                check = false;
+                    cnt++;
+                }
+                
                 continue;
             }
             for (int i = 0; i < 4; i++) {
@@ -32,7 +32,6 @@ public:
                 int newy = col + dy[i];
                 if (newx >= 0 && newy >= 0 && newx < m && newy < n &&
                     grid[newx][newy] == 1) {
-                    check = true;
                     grid[newx][newy] = 2;
                     q.push({newx, newy});
                 }
