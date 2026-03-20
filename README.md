@@ -448,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/divyansh884/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/divyansh884/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/divyansh884/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/divyansh884/Leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/divyansh884/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/divyansh884/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -706,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/divyansh884/Leetcode/tree/master/3321-type-of-triangle) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/divyansh884/Leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/divyansh884/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Trie
@@ -972,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/divyansh884/Leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3227-find-missing-and-repeated-values](https://github.com/divyansh884/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/divyansh884/Leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/divyansh884/Leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 ## Recursion
 |  |
 | ------- |
