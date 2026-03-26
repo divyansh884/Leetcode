@@ -1,59 +1,85 @@
 class Solution {
 public:
-    typedef long long ll;
-    bool solve(vector<vector<int>>&grid){
-        int n=grid.size(),m=grid[0].size();
-        ll bottomSum=0,topSum=0;
-        vector<int>bottomFreq(100001,0),topFreq(100001,0);
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                bottomSum+=grid[i][j];
-                bottomFreq[grid[i][j]]++;
+    bool canPartitionGrid(vector<vector<int>>& grid) {
+        int m = grid.size(), n = grid[0].size();
+        long long total = 0;
+        unordered_map<int, int> bottom, top;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                bottom[grid[i][j]]++;
+                total += grid[i][j];
             }
         }
-        for(int i=0;i<n-1;i++){
-           for(int j=0;j<m;j++){
-                bottomSum-=grid[i][j];
-                bottomFreq[grid[i][j]]--;
-                topSum+=grid[i][j];
-                topFreq[grid[i][j]]++;
-           }
-           if(topSum==bottomSum)return true;
-           ll diffTop=topSum-bottomSum;
-           if(diffTop>0 && diffTop<=100000){
-              int h=i+1,w=m;
-              if(h>1 && w>1){
-                if(topFreq[diffTop])return true;
-                }
-                else if(h>1 && w==1){
-                    if(grid[0][0]==diffTop || grid[i][0]==diffTop)return true;
-                }else if(h==1 && w>1){
-                    if(grid[0][0]==diffTop || grid[0][w-1]==diffTop)return true;
-                }
-           }
-           ll diffBot=bottomSum-topSum;
-           if(diffBot>0 && diffBot<=100000){
-            int h=(n-i-1),w=m;
-            if(h>1 && w>1){
-                if(bottomFreq[diffBot])return true;
-            }else if(h>1 && w==1){
-                if(grid[i+1][0]==diffBot || grid[n-1][0]==diffBot)return true;
-            }else if(h==1 && w>1){
-                if(grid[n-1][0]==diffBot || grid[n-1][w-1]==diffBot)return true;
+        long long topSum = 0;
+        for (int i = 0; i < m - 1; i++) {
+            for (int j = 0; j < n; j++) {
+                int val = grid[i][j];
+                top[val]++;
+                bottom[val]--;
+                if (bottom[val] == 0)
+                    bottom.erase(val);
+                topSum += val;
             }
-           }
+            long long bottomSum = total - topSum;
+            if (topSum == bottomSum)
+                return true;
+            long long diff = abs(topSum - bottomSum);
+            if(diff<=100000){
+            if (topSum > bottomSum) {
+                if (top.count(diff) && i != 0 && n != 1)
+                    return true;
+                if ((i == 0 || n == 1) &&
+                    (grid[0][0] == diff || grid[0][n - 1] == diff || grid[i][0]==diff 
+                    || grid[i][n-1]==diff))
+                    return true;
+            } else {
+                if (bottom.count(diff) && i + 1 != m - 1 && n != 1)
+                    return true;
+                if ((i + 1 == m - 1 || n == 1) &&
+                    (grid[m - 1][0] == diff || grid[m - 1][n - 1] == diff || grid[i+1][0]==diff || grid[i+1][n-1]==diff))
+                    return true;
+            }
+            }
+        }
+        top.clear();
+        bottom.clear();
+        total = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                bottom[grid[i][j]]++;
+                total += grid[i][j];
+            }
+        }
+        long long leftSum = 0;
+        for (int j = 0; j < n - 1; j++) {
+            for (int i = 0; i < m; i++) {
+                int val = grid[i][j];
+                top[val]++;
+                bottom[val]--;
+                if (bottom[val] == 0)
+                    bottom.erase(val);
+                leftSum += val;
+            }
+            long long rightSum = total - leftSum;
+            if (leftSum == rightSum)
+                return true;
+            long long diff = abs(leftSum - rightSum);
+            if(diff<=100000){
+            if (leftSum > rightSum) {
+                if (top.count(diff) && j != 0 && m != 1)
+                    return true;
+                if ((j == 0 || m == 1) &&
+                    (grid[0][0] == diff || grid[m - 1][0] == diff || grid[0][j]==diff || grid[m-1][j]==diff))
+                    return true;
+            } else {
+                if (bottom.count(diff) && j + 1 != n - 1 && m != 1)
+                    return true;
+                if ((j + 1 == n - 1 || m == 1) &&
+                    (grid[0][n - 1] == diff || grid[m - 1][n - 1] == diff || grid[0][j+1]==diff|| grid[m-1][j+1]==diff))
+                    return true;
+            }
+            }
         }
         return false;
-    }
-    bool canPartitionGrid(vector<vector<int>>& grid) {
-        if(solve(grid))return true;
-        int n=grid.size(),m=grid[0].size();
-        vector<vector<int>>mat(m,vector<int>(n));
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                mat[j][i]=grid[i][j];
-            }
-        }
-        return solve(mat);
     }
 };
