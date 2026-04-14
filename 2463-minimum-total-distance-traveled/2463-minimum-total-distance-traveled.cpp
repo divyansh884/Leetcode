@@ -1,28 +1,31 @@
 class Solution {
 public:
-    long long dp[101][101];
-
-    long long solve(int i, int j, vector<int>& robot, vector<vector<int>>& factory) {
-        if (i >= robot.size()) return 0;
-        if (j >= factory.size()) return 1e18;
-
-        if (dp[i][j] != -1) return dp[i][j];
-
-        long long res = solve(i, j + 1, robot, factory); // skip factory
-
+    long long solve(int r, int f, vector<int>& robot,
+                    vector<vector<int>>& factory,
+                    vector<vector<long long>>& dp) {
+        if (r == robot.size())
+            return 0;
+        if (f == factory.size())
+            return 1e18;
+        if (dp[r][f] != -1)
+            return dp[r][f];
+        long long ans = solve(r, f + 1, robot, factory, dp);
         long long cost = 0;
-        for (int k = 0; k < factory[j][1] && i + k < robot.size(); k++) {
-            cost += abs(robot[i + k] - factory[j][0]);
-            res = min(res, cost + solve(i + k + 1, j + 1, robot, factory));
+        int pos = factory[f][0];
+        int cap = factory[f][1];
+        for (int k = 0; k < cap && r + k < robot.size(); k++) {
+            cost += abs(robot[r + k] - pos);
+            ans = min(ans, cost + solve(r + k + 1, f + 1, robot, factory, dp));
         }
-
-        return dp[i][j] = res;
+        return dp[r][f] = ans;
     }
 
-    long long minimumTotalDistance(vector<int>& robot, vector<vector<int>>& factory) {
+    long long minimumTotalDistance(vector<int>& robot,
+                                   vector<vector<int>>& factory) {
         sort(robot.begin(), robot.end());
         sort(factory.begin(), factory.end());
-        memset(dp, -1, sizeof(dp));
-        return solve(0, 0, robot, factory);
+        vector<vector<long long>> dp(robot.size(),
+                                     vector<long long>(factory.size(), -1));
+        return solve(0, 0, robot, factory, dp);
     }
 };
