@@ -407,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/divyansh884/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/divyansh884/Leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/divyansh884/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/divyansh884/Leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/divyansh884/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1753-path-with-minimum-effort](https://github.com/divyansh884/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1813-maximum-erasure-value](https://github.com/divyansh884/Leetcode/tree/master/1813-maximum-erasure-value) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1612-avoid-flood-in-the-city](https://github.com/divyansh884/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/divyansh884/Leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1813-maximum-erasure-value](https://github.com/divyansh884/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/divyansh884/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/divyansh884/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -916,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/divyansh884/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/divyansh884/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/divyansh884/Leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1895-largest-magic-square](https://github.com/divyansh884/Leetcode/tree/master/1895-largest-magic-square) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/divyansh884/Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
