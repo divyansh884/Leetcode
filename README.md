@@ -1388,4 +1388,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/divyansh884/Leetcode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
