@@ -13,13 +13,11 @@ public:
                 if (check[mid] + maxJump >= i && check[mid] + minJump <= i) {
                     check.push_back(i);
                     break;
-                } else if (check[mid] + maxJump < i )
+                } else if (check[mid] + maxJump < i)
                     low = mid + 1;
-                else if(check[mid] + minJump > i)
+                else if (check[mid] + minJump > i)
                     high = mid - 1;
             }
-            if (check.back() + maxJump >= i && check.back() + minJump <= i)
-                check.push_back(i);
         }
         if (check.back() == n - 1)
             return true;
