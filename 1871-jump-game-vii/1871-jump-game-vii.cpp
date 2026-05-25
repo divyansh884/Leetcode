@@ -3,6 +3,8 @@ public:
     bool canReach(string s, int minJump, int maxJump) {
         int n = s.size();
         vector<int> check;
+        if(s.back()=='1')
+        return false;
         check.push_back(0);
         for (int i = 1; i < n; i++) {
             if (s[i] == '1')
