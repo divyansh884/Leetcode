@@ -1,39 +1,39 @@
 class Solution {
 public:
-    void f(int i, vector<vector<int>>& adj, vector<int>& visited) {
+    void f(int node, vector<vector<int>>& dj, vector<int>& vis) {
         queue<int> q;
-        visited[i] = 1;
-        q.push(i);
+        q.push(node);
         while (!q.empty()) {
             int node = q.front();
             q.pop();
-            for (auto it : adj[node]) {
-                if (!visited[it]) {
+            for (auto it : dj[node]) {
+                if (!vis[it]) {
                     q.push(it);
-                    visited[it] = 1;
+                    vis[it] = 1;
                 }
             }
         }
     }
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size();
+        int n=isConnected.size();
         vector<vector<int>> adj(n);
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (i == j)
-                    continue;
-                if (isConnected[i][j] == 1)
+                if (isConnected[i][j]) {
                     adj[i].push_back(j);
+                    adj[j].push_back(i);
+                }
             }
         }
-        vector<int> visited(n, 0);
-        int cnt = 0;
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                cnt++;
-                f(i, adj, visited);
+        vector<int> vis(n,0);
+        int ans=0;
+        for(int i=0;i<n;i++){
+            if(!vis[i]){
+                ans++;
+                vis[i]=1;
+                f(i,adj,vis);
             }
         }
-        return cnt;
+        return ans;
     }
 };
