@@ -1,48 +1,45 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        queue<pair<int, int>> q;
         int m = grid.size();
         int n = grid[0].size();
+        queue<vector<int>> q;
+        vector<vector<int>> vis(m, vector<int>(n, 0));
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 2)
-                    q.push({i, j});
+                if (grid[i][j] == 2) {
+                    q.push({i, j, 0});
+                    vis[i][j] = 1;
+                }
             }
         }
-        q.push({-1, -1});
-        int cnt = 0;
-        int dx[] = {-1, 0, 1, 0};
-        int dy[] = {0, 1, 0, -1};
-        bool check = false;
+        int ans = 0;
+        vector<int> dx = {-1, 0, 1, 0};
+        vector<int> dy = {0, -1, 0, 1};
         while (!q.empty()) {
-            int row = q.front().first;
-            int col = q.front().second;
+            int row = q.front()[0];
+            int col = q.front()[1];
+            int time = q.front()[2];
+            ans = max(ans, q.front()[2]);
             q.pop();
-            if (row == -1 && col == -1) {
-                if (!q.empty()){
-                    q.push({-1,- 1});
-                    cnt++;
-                }
-                
-                continue;
-            }
             for (int i = 0; i < 4; i++) {
-                int newx = row + dx[i];
-                int newy = col + dy[i];
-                if (newx >= 0 && newy >= 0 && newx < m && newy < n &&
-                    grid[newx][newy] == 1) {
-                    grid[newx][newy] = 2;
-                    q.push({newx, newy});
+                int nr = row + dx[i];
+                int nc = col + dy[i];
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n && !vis[nr][nc] &&
+                    grid[nr][nc] == 1) {
+                    vis[nr][nc] = 1;
+                    grid[nr][nc]=2;
+                    q.push({nr, nc, time + 1});
                 }
             }
         }
-        for (int i = 0; i < m; i++) {
+         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1)
+                if (grid[i][j] == 1) {
                     return -1;
+                }
             }
         }
-        return cnt;
+        return ans;
     }
 };
