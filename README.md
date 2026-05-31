@@ -1426,10 +1426,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/divyansh884/Leetcode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/divyansh884/Leetcode/tree/master/0547-number-of-provinces) |
 | [2573-find-the-string-with-lcp](https://github.com/divyansh884/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/divyansh884/Leetcode/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Database
 |  |
