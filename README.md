@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/divyansh884/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/divyansh884/Leetcode/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/divyansh884/Leetcode/tree/master/0115-distinct-subsequences) |
+| [0126-word-ladder-ii](https://github.com/divyansh884/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/divyansh884/Leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/divyansh884/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/divyansh884/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
@@ -530,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/divyansh884/Leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/divyansh884/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0126-word-ladder-ii](https://github.com/divyansh884/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/divyansh884/Leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/divyansh884/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/divyansh884/Leetcode/tree/master/0139-word-break) |
@@ -1298,6 +1300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/divyansh884/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0112-path-sum) |
+| [0126-word-ladder-ii](https://github.com/divyansh884/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/divyansh884/Leetcode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/divyansh884/Leetcode/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/divyansh884/Leetcode/tree/master/0199-binary-tree-right-side-view) |
@@ -1350,6 +1353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/divyansh884/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/divyansh884/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/divyansh884/Leetcode/tree/master/0090-subsets-ii) |
+| [0126-word-ladder-ii](https://github.com/divyansh884/Leetcode/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/divyansh884/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/divyansh884/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/divyansh884/Leetcode/tree/master/0257-binary-tree-paths) |
