@@ -1,43 +1,55 @@
-
 class Solution {
 public:
-	void solve(vector<vector<char>>& board) {
-        int i,j;
-        int row=board.size();
-        if(!row)
-        	return;
-        int col=board[0].size();
-
-		for(i=0;i<row;i++){
-			check(board,i,0,row,col);
-			if(col>1)
-				check(board,i,col-1,row,col);
-		}
-		for(j=1;j+1<col;j++){
-			check(board,0,j,row,col);
-			if(row>1)
-				check(board,row-1,j,row,col);
-		}
-		for(i=0;i<row;i++)
-			for(j=0;j<col;j++)
-				if(board[i][j]=='O')
-					board[i][j]='X';
-		for(i=0;i<row;i++)
-			for(j=0;j<col;j++)
-				if(board[i][j]=='1')
-					board[i][j]='O';
+    void f(int i, int j, vector<vector<char>>& b, vector<vector<int>>& vis,
+           int& m, int& n) {
+        queue<pair<int, int>> q;
+        q.push({i, j});
+        vector<int> dx = {-1, 0, 1, 0};
+        vector<int> dy = {0, -1, 0, 1};
+        while (!q.empty()) {
+            int r = q.front().first;
+            int c = q.front().second;
+            q.pop();
+            for (int i = 0; i < 4; i++) {
+                int nr = r + dx[i];
+                int nc = c + dy[i];
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n && b[nr][nc] == 'O' &&
+                    !vis[nr][nc]) {
+                    vis[nr][nc] = 1;
+                    q.push({nr, nc});
+                }
+            }
+        }
     }
-	void check(vector<vector<char> >&vec,int i,int j,int row,int col){
-		if(vec[i][j]=='O'){
-			vec[i][j]='1';
-			if(i>1)
-				check(vec,i-1,j,row,col);
-			if(j>1)
-				check(vec,i,j-1,row,col);
-			if(i+1<row)
-				check(vec,i+1,j,row,col);
-			if(j+1<col)
-				check(vec,i,j+1,row,col);
-		}
-	}
+    void solve(vector<vector<char>>& board) {
+        int m = board.size();
+        int n = board[0].size();
+        vector<vector<int>> vis(m, vector<int>(n, 0));
+        for (int i = 0; i < n; i++) {
+            if (!vis[0][i] && board[0][i] == 'O') {
+                vis[0][i] = 1;
+                f(0, i, board, vis, m, n);
+            }
+            if (!vis[m - 1][i] && board[m - 1][i] == 'O') {
+                vis[m - 1][i] = 1;
+                f(m - 1, i, board, vis, m, n);
+            }
+        }
+        for (int i = 0; i < m; i++) {
+            if (!vis[i][0] && board[i][0] == 'O') {
+                vis[i][0] = 1;
+                f(i, 0, board, vis, m, n);
+            }
+            if (!vis[i][n - 1] && board[i][n - 1] == 'O') {
+                vis[i][n - 1] = 1;
+                f(i, n - 1, board, vis, m, n);
+            }
+        }
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if(!vis[i][j])
+                board[i][j]='X';
+            }
+        }
+    }
 };
