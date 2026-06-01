@@ -1,38 +1,40 @@
 class Solution {
 public:
-    void f(int i, int j, vector<vector<char>>& grid, vector<vector<int>>& vis) {
+void f(int i, int j, vector<vector<char>>& b, vector<vector<int>>& vis,
+           int& m, int& n) {
         queue<pair<int, int>> q;
         q.push({i, j});
-        int dx[] = {-1, 0, 1, 0};
-        int dy[] = {0, 1, 0, -1};
+        vector<int> dx = {-1, 0, 1, 0};
+        vector<int> dy = {0, -1, 0, 1};
         while (!q.empty()) {
-            int row = q.front().first;
-            int col = q.front().second;
+            int r = q.front().first;
+            int c = q.front().second;
             q.pop();
             for (int i = 0; i < 4; i++) {
-                int newx = row + dx[i];
-                int newy = col + dy[i];
-                if (newx >= 0 && newy >= 0 && newx < grid.size() &&
-                    newy < grid[0].size() && grid[newx][newy] == '1' &&
-                    vis[newx][newy] == -1) {
-                    vis[newx][newy] = 1;
-                    q.push({newx, newy});
+                int nr = r + dx[i];
+                int nc = c + dy[i];
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n && b[nr][nc] == '1' &&
+                    !vis[nr][nc]) {
+                    vis[nr][nc] = 1;
+                    q.push({nr, nc});
                 }
             }
         }
     }
-    int numIslands(vector<vector<char>>& grid) {
-        int cnt = 0;
-        vector<vector<int>> vis(grid.size(), vector<int>(grid[0].size(), - 1));
-        for (int i = 0; i < grid.size(); i++) {
-            for (int j = 0; j < grid[0].size(); j++) {
-                if (grid[i][j] == '1' && vis[i][j] == -1) {
-                    vis[i][j] = 1;
-                    cnt++;
-                    f(i, j, grid, vis);
+    int numIslands(vector<vector<char>>& board) {
+        int m = board.size();
+        int n = board[0].size();
+        vector<vector<int>> vis(m, vector<int>(n, 0));
+        int ans=0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (!vis[i][j] && board[i][j] == '1'){
+                    ans++;
+                    vis[i][j]=1;
+                    f(i,j,board,vis,m,n);
                 }
             }
         }
-        return cnt;
+        return ans;
     }
 };
