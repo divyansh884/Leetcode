@@ -819,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/divyansh884/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/divyansh884/Leetcode/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/divyansh884/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0743-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1280,6 +1281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divyansh884/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/divyansh884/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divyansh884/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -1325,6 +1327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/divyansh884/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/divyansh884/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/divyansh884/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -1425,6 +1428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -1463,6 +1467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/divyansh884/Leetcode/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Database
