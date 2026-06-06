@@ -472,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/divyansh884/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2553-separate-the-digits-in-an-array](https://github.com/divyansh884/Leetcode/tree/master/2553-separate-the-digits-in-an-array) |
 | [2573-find-the-string-with-lcp](https://github.com/divyansh884/Leetcode/tree/master/2573-find-the-string-with-lcp) |
+| [2574-left-and-right-sum-differences](https://github.com/divyansh884/Leetcode/tree/master/2574-left-and-right-sum-differences) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/divyansh884/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/divyansh884/Leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2668-form-smallest-number-from-two-digit-arrays](https://github.com/divyansh884/Leetcode/tree/master/2668-form-smallest-number-from-two-digit-arrays) |
@@ -989,6 +990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/divyansh884/Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2529-range-product-queries-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2529-range-product-queries-of-powers) |
+| [2574-left-and-right-sum-differences](https://github.com/divyansh884/Leetcode/tree/master/2574-left-and-right-sum-differences) |
 | [2906-construct-product-matrix](https://github.com/divyansh884/Leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/divyansh884/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/divyansh884/Leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
