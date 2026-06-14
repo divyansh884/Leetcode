@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/divyansh884/Leetcode/tree/master/3321-type-of-triangle) |
 | [3336-water-bottles-ii](https://github.com/divyansh884/Leetcode/tree/master/3336-water-bottles-ii) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/divyansh884/Leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/divyansh884/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/divyansh884/Leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/divyansh884/Leetcode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/divyansh884/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/divyansh884/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/divyansh884/Leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/divyansh884/Leetcode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Memoization
@@ -515,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/divyansh884/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3546-equal-sum-grid-partition-i](https://github.com/divyansh884/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/divyansh884/Leetcode/tree/master/3548-equal-sum-grid-partition-ii) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/divyansh884/Leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/divyansh884/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/divyansh884/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -1064,6 +1067,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-range-product-queries-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/divyansh884/Leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/divyansh884/Leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/divyansh884/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Matrix
 |  |
@@ -1233,6 +1237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/divyansh884/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/divyansh884/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/divyansh884/Leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1333,6 +1338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/divyansh884/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/divyansh884/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/divyansh884/Leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
