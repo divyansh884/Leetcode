@@ -46,7 +46,7 @@ public:
             g[u].emplace_back(v);
             g[v].emplace_back(u);
         }
-        int max_dep = bfs_depth(1,g);
+        int max_dep = bfs_depth(1, g);
         return qpow(2, max_dep - 1);
     }
 };
