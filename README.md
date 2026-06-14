@@ -232,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3617-find-the-original-typed-string-i](https://github.com/divyansh884/Leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3713-longest-balanced-substring-i](https://github.com/divyansh884/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/divyansh884/Leetcode/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
+| [3838-weighted-word-mapping](https://github.com/divyansh884/Leetcode/tree/master/3838-weighted-word-mapping) |
 | [3905-partition-string](https://github.com/divyansh884/Leetcode/tree/master/3905-partition-string) |
 ## Greedy
 |  |
@@ -538,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/divyansh884/Leetcode/tree/master/3791-fruits-into-baskets-iii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/divyansh884/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/divyansh884/Leetcode/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
+| [3838-weighted-word-mapping](https://github.com/divyansh884/Leetcode/tree/master/3838-weighted-word-mapping) |
 | [3875-construct-uniform-parity-array-i](https://github.com/divyansh884/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/divyansh884/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Hash Table
@@ -761,6 +763,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/divyansh884/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/divyansh884/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/divyansh884/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3838-weighted-word-mapping](https://github.com/divyansh884/Leetcode/tree/master/3838-weighted-word-mapping) |
 | [3905-partition-string](https://github.com/divyansh884/Leetcode/tree/master/3905-partition-string) |
 ## Sorting
 |  |
