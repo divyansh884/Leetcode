@@ -230,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3396-valid-word](https://github.com/divyansh884/Leetcode/tree/master/3396-valid-word) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/divyansh884/Leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3612-process-string-with-special-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/divyansh884/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
 | [3617-find-the-original-typed-string-i](https://github.com/divyansh884/Leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3713-longest-balanced-substring-i](https://github.com/divyansh884/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/divyansh884/Leetcode/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
@@ -764,6 +765,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/divyansh884/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/divyansh884/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/divyansh884/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/divyansh884/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/divyansh884/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/divyansh884/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
