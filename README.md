@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/divyansh884/Leetcode/tree/master/1129-longest-string-chain) |
 | [1143-longest-common-subsequence](https://github.com/divyansh884/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/divyansh884/Leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1189-maximum-number-of-balloons](https://github.com/divyansh884/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1197-parsing-a-boolean-expression](https://github.com/divyansh884/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/divyansh884/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/divyansh884/Leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
@@ -602,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/divyansh884/Leetcode/tree/master/1129-longest-string-chain) |
+| [1189-maximum-number-of-balloons](https://github.com/divyansh884/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1248-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1345-jump-game-iv](https://github.com/divyansh884/Leetcode/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/divyansh884/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -658,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/divyansh884/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0992-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1034-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1189-maximum-number-of-balloons](https://github.com/divyansh884/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1364-tuple-with-same-product](https://github.com/divyansh884/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/divyansh884/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
