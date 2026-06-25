@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/divyansh884/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/divyansh884/Leetcode/tree/master/0049-group-anagrams) |
 | [0065-valid-number](https://github.com/divyansh884/Leetcode/tree/master/0065-valid-number) |
+| [0068-text-justification](https://github.com/divyansh884/Leetcode/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/divyansh884/Leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/divyansh884/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/divyansh884/Leetcode/tree/master/0079-word-search) |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/divyansh884/Leetcode/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/divyansh884/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/divyansh884/Leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/divyansh884/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/divyansh884/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/divyansh884/Leetcode/tree/master/0075-sort-colors) |
@@ -763,6 +765,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/divyansh884/Leetcode/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/divyansh884/Leetcode/tree/master/0068-text-justification) |
 | [0735-asteroid-collision](https://github.com/divyansh884/Leetcode/tree/master/0735-asteroid-collision) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/divyansh884/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
