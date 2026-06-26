@@ -548,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3691-maximum-total-subarray-value-ii](https://github.com/divyansh884/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/divyansh884/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/divyansh884/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/divyansh884/Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/divyansh884/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/divyansh884/Leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -655,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3713-longest-balanced-substring-i](https://github.com/divyansh884/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/divyansh884/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/divyansh884/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/divyansh884/Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/divyansh884/Leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/divyansh884/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -1053,6 +1055,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3699-number-of-zigzag-arrays-i](https://github.com/divyansh884/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/divyansh884/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/divyansh884/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/divyansh884/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Divide and Conquer
 |  |
@@ -1069,6 +1072,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/divyansh884/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/divyansh884/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/divyansh884/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Design
 |  |
 | ------- |
@@ -1206,6 +1210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/divyansh884/Leetcode/tree/master/0148-sort-list) |
 | [0493-reverse-pairs](https://github.com/divyansh884/Leetcode/tree/master/0493-reverse-pairs) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/divyansh884/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Queue
 |  |
 | ------- |
@@ -1478,6 +1483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3691-maximum-total-subarray-value-ii](https://github.com/divyansh884/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/divyansh884/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/divyansh884/Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/divyansh884/Leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/divyansh884/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/divyansh884/Leetcode/tree/master/3791-fruits-into-baskets-iii) |
 ## Graph
