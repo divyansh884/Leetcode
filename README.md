@@ -518,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/divyansh884/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/divyansh884/Leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/divyansh884/Leetcode/tree/master/2784-check-if-array-is-good) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/divyansh884/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/divyansh884/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/divyansh884/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/divyansh884/Leetcode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
@@ -911,6 +912,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/divyansh884/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2479-meeting-rooms-iii](https://github.com/divyansh884/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/divyansh884/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/divyansh884/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
 ## String Matching
 |  |
@@ -1002,6 +1004,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/divyansh884/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2540-minimum-common-value](https://github.com/divyansh884/Leetcode/tree/master/2540-minimum-common-value) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/divyansh884/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/divyansh884/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3161-block-placement-queries](https://github.com/divyansh884/Leetcode/tree/master/3161-block-placement-queries) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -1180,6 +1183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/divyansh884/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/divyansh884/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2573-find-the-string-with-lcp](https://github.com/divyansh884/Leetcode/tree/master/2573-find-the-string-with-lcp) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/divyansh884/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/divyansh884/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/divyansh884/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/divyansh884/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -1460,6 +1464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/divyansh884/Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/divyansh884/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/divyansh884/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/divyansh884/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Iterator
 |  |
 | ------- |
@@ -1575,6 +1580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/divyansh884/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/divyansh884/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2573-find-the-string-with-lcp](https://github.com/divyansh884/Leetcode/tree/master/2573-find-the-string-with-lcp) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/divyansh884/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Graph Theory
 |  |
 | ------- |
