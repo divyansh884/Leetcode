@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3699-number-of-zigzag-arrays-i](https://github.com/divyansh884/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/divyansh884/Leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/divyansh884/Leetcode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/divyansh884/Leetcode/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Memoization
 |  |
 | ------- |
@@ -578,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3876-construct-uniform-parity-array-ii](https://github.com/divyansh884/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/divyansh884/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3975-filter-occupied-intervals](https://github.com/divyansh884/Leetcode/tree/master/3975-filter-occupied-intervals) |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/divyansh884/Leetcode/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Hash Table
 |  |
 | ------- |
@@ -919,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/divyansh884/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/divyansh884/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/divyansh884/Leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/divyansh884/Leetcode/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## String Matching
 |  |
 | ------- |
@@ -1555,6 +1558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/divyansh884/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/divyansh884/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/divyansh884/Leetcode/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Biconnected Component
 |  |
 | ------- |
@@ -1593,6 +1597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/divyansh884/Leetcode/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Database
 |  |
 | ------- |
