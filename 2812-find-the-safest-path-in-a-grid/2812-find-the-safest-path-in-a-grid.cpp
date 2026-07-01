@@ -20,7 +20,6 @@ public:
             for (int k = 0; k < 4; k++) {
                 int nr = r + dx[k];
                 int nc = c + dy[k];
-
                 if (nr >= 0 && nr < n && nc >= 0 && nc < n &&
                     dis[nr][nc] > dis[r][c] + 1) {
                     dis[nr][nc] = dis[r][c] + 1;
