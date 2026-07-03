@@ -10,18 +10,16 @@ public:
         int n = online.size();
         if (edges.empty()) return -1;
         
-        // Find the maximum possible edge weight for our binary search boundary
+
         int max_weight = 0;
         vector<vector<pair<int, int>>> adj(n);
         for (const auto& edge : edges) {
             adj[edge[0]].push_back({edge[1], edge[2]});
             max_weight = max(max_weight, edge[2]);
         }
-        
-        // Helper function: Can we reach (n-1) using only edges >= min_bottleneck 
-        // with a total cost <= k?
+    
         auto canReach = [&](int min_bottleneck) {
-            // Min-heap for standard shortest path: {total_cost_used, node}
+
             priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<>> pq;
             vector<long long> min_cost(n, 1e18);
             
