@@ -435,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/divyansh884/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1248-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1266-minimum-time-visiting-all-points](https://github.com/divyansh884/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
+| [1288-remove-covered-intervals](https://github.com/divyansh884/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/divyansh884/Leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1301-number-of-paths-with-max-score](https://github.com/divyansh884/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1306-jump-game-iii](https://github.com/divyansh884/Leetcode/tree/master/1306-jump-game-iii) |
@@ -856,6 +857,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/divyansh884/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/divyansh884/Leetcode/tree/master/1129-longest-string-chain) |
+| [1288-remove-covered-intervals](https://github.com/divyansh884/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1340-jump-game-v](https://github.com/divyansh884/Leetcode/tree/master/1340-jump-game-v) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/divyansh884/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/divyansh884/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
