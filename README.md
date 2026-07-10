@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/divyansh884/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/divyansh884/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3620-network-recovery-pathways](https://github.com/divyansh884/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/divyansh884/Leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3075-maximize-happiness-of-selected-children](https://github.com/divyansh884/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/divyansh884/Leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/divyansh884/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/divyansh884/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/divyansh884/Leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -558,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/divyansh884/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/divyansh884/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/divyansh884/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3546-equal-sum-grid-partition-i](https://github.com/divyansh884/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/divyansh884/Leetcode/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -762,6 +765,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/divyansh884/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/divyansh884/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/divyansh884/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/divyansh884/Leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/divyansh884/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
@@ -891,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/divyansh884/Leetcode/tree/master/3321-type-of-triangle) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/divyansh884/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/divyansh884/Leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/divyansh884/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -1030,6 +1035,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3161-block-placement-queries](https://github.com/divyansh884/Leetcode/tree/master/3161-block-placement-queries) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/divyansh884/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/divyansh884/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/divyansh884/Leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/divyansh884/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -1162,6 +1168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-range-product-queries-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/divyansh884/Leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/divyansh884/Leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/divyansh884/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Matrix
@@ -1627,6 +1634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/divyansh884/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/divyansh884/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/divyansh884/Leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/divyansh884/Leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/divyansh884/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/divyansh884/Leetcode/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Database
