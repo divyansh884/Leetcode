@@ -1,26 +1,24 @@
 class Solution {
 public:
-    bool canPartition(vector<int>& nums) {
-         int index=0,n=nums.size(),sum=0,total=0;
-        for(int i=0;i<nums.size();i++){
-            total+=nums[i];
-        }
-        if(total%2!=0)
-        return false;
-        sort(nums.begin(),nums.end());
-        vector<vector<bool>> dp(n, vector<bool>((total/2) + 1, false));
-        for(int i=0;i<n;i++){
-            dp[i][0]=true;
-        }
-        if (nums[0] <= (total/2))dp[0][nums[0]]=true;
-        for(int i=1;i<n;i++){
-            for(int j=1;j<=total/2;j++){
-                bool take=false;
-                if(nums[i]<=j) take= dp[i-1][j-nums[i]];
-                bool ntake=dp[i-1][j];
-                dp[i][j]=take||ntake;
+    bool canPartition(vector<int>& arr) {
+        int n = arr.size();
+        int sum = 0;
+        for (auto it : arr)
+            sum += it;
+        if (sum % 2 != 0)
+            return false;
+        vector<vector<int>> dp(n, vector<int>((sum / 2) + 1, 0));
+        for (int i = 0; i < n; i++)
+            dp[i][0] = 1;
+        if (arr[0] <= sum/2)
+            dp[0][arr[0]] = 1;
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j <= sum/2; j++) {
+                dp[i][j] = dp[i - 1][j];
+                if (j >= arr[i])
+                    dp[i][j] |= dp[i - 1][j - arr[i]];
             }
         }
-        return dp[n-1][total/2];
-        }
+        return dp[n - 1][sum/2];
+    }
 };
