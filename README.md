@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/divyansh884/Leetcode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3321-type-of-triangle](https://github.com/divyansh884/Leetcode/tree/master/3321-type-of-triangle) |
 | [3336-water-bottles-ii](https://github.com/divyansh884/Leetcode/tree/master/3336-water-bottles-ii) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/divyansh884/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/divyansh884/Leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/divyansh884/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/divyansh884/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2573-find-the-string-with-lcp](https://github.com/divyansh884/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/divyansh884/Leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/divyansh884/Leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/divyansh884/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/divyansh884/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/divyansh884/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/divyansh884/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
@@ -553,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/divyansh884/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/divyansh884/Leetcode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3321-type-of-triangle](https://github.com/divyansh884/Leetcode/tree/master/3321-type-of-triangle) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/divyansh884/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/divyansh884/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/divyansh884/Leetcode/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/divyansh884/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -1542,6 +1545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/divyansh884/Leetcode/tree/master/0204-count-primes) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/divyansh884/Leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 ## Combinatorics
 |  |
 | ------- |
