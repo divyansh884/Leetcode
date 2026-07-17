@@ -11,7 +11,7 @@ public:
           if (step > k) continue;
           for(int j=0;j<graph[node].size();j++){
               int newdis=dist+graph[node][j].second;
-              if(newdis<dis[graph[node][j].first] && step+1<=k+1){
+              if(newdis<dis[graph[node][j].first] && step<=k){
                   dis[graph[node][j].first]=newdis;
                   pq.push({step+1,graph[node][j].first,newdis});
               }
