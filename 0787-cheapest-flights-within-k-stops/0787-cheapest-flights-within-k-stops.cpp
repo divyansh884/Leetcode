@@ -8,7 +8,7 @@ public:
           int node=pq.top()[1];
           int step=pq.top()[0];
           pq.pop();
-          if (step > k + 1) continue;
+          if (step > k) continue;
           for(int j=0;j<graph[node].size();j++){
               int newdis=dist+graph[node][j].second;
               if(newdis<dis[graph[node][j].first] && step+1<=k+1){
