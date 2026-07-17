@@ -1458,6 +1458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/divyansh884/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -1509,6 +1510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/divyansh884/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/divyansh884/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -1612,6 +1614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/divyansh884/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/divyansh884/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/divyansh884/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3620-network-recovery-pathways](https://github.com/divyansh884/Leetcode/tree/master/3620-network-recovery-pathways) |
@@ -1670,6 +1673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/divyansh884/Leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/divyansh884/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0802-find-eventual-safe-states](https://github.com/divyansh884/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/divyansh884/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/divyansh884/Leetcode/tree/master/2685-count-the-number-of-complete-components) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/divyansh884/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
