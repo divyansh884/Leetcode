@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-remove-outermost-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1048-longest-string-chain](https://github.com/divyansh884/Leetcode/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/divyansh884/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1092-shortest-common-supersequence](https://github.com/divyansh884/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1129-longest-string-chain](https://github.com/divyansh884/Leetcode/tree/master/1129-longest-string-chain) |
 | [1143-longest-common-subsequence](https://github.com/divyansh884/Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/divyansh884/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0846-hand-of-straights](https://github.com/divyansh884/Leetcode/tree/master/0846-hand-of-straights) |
 | [0876-hand-of-straights](https://github.com/divyansh884/Leetcode/tree/master/0876-hand-of-straights) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/divyansh884/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/divyansh884/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/divyansh884/Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
@@ -819,6 +821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/divyansh884/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/divyansh884/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1197-parsing-a-boolean-expression](https://github.com/divyansh884/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1628-count-submatrices-with-all-ones](https://github.com/divyansh884/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -1320,6 +1323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0937-online-stock-span](https://github.com/divyansh884/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/divyansh884/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/divyansh884/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1628-count-submatrices-with-all-ones](https://github.com/divyansh884/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [2227-sum-of-subarray-ranges](https://github.com/divyansh884/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Quickselect
