@@ -1,68 +1,56 @@
-class DisjointSet {
-    vector<int> rank, parent, size;
-public:
-    DisjointSet(int n) {
-        rank.resize(n + 1, 0);
-        parent.resize(n + 1);
-        size.resize(n + 1);
-        for (int i = 0; i <= n; i++) {
-            parent[i] = i;
-            size[i] = 1;
-        }
-    }
-
-    int findUPar(int node) {
-        if (node == parent[node])
-            return node;
-        return parent[node] = findUPar(parent[node]);
-    }
-
-    void unionByRank(int u, int v) {
-        int ulp_u = findUPar(u);
-        int ulp_v = findUPar(v);
-        if (ulp_u == ulp_v) return;
-        if (rank[ulp_u] < rank[ulp_v]) {
-            parent[ulp_u] = ulp_v;
-        }
-        else if (rank[ulp_v] < rank[ulp_u]) {
-            parent[ulp_v] = ulp_u;
-        }
-        else {
-            parent[ulp_v] = ulp_u;
-            rank[ulp_u]++;
-        }
-    }
-};
-
 class Solution {
+    vector<int> parent;
+
+    int find(int x) {
+        if (parent[x] == x)
+            return x;
+        return parent[x] = find(parent[x]);
+    }
+
+    void unite(int u, int v) {
+        u = find(u);
+        v = find(v);
+        if (u != v)
+            parent[v] = u;
+    }
+
 public:
-    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        int n=accounts.size();
-        unordered_map<string,int> mp;
-        DisjointSet ds(n);
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            for(int j=1;j<accounts[i].size();j++){
-                if(mp.find(accounts[i][j])==mp.end()){
-                    mp[accounts[i][j]]=i;
-                }
-                else{
-                    ds.unionByRank(i, mp[accounts[i][j]]);
+    vector<vector<string>> accountsMerge(vector<vector<string>>& acc) {
+        int n = acc.size();
+        parent.resize(n);
+
+        for (int i = 0; i < n; i++)
+            parent[i] = i;
+
+        map<string, int> mp;
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < acc[i].size(); j++) {
+                if (mp.find(acc[i][j]) == mp.end()) {
+                    mp[acc[i][j]] = i;
+                } else {
+                    unite(i, mp[acc[i][j]]);
                 }
             }
         }
-        vector<vector<string>> ans(n),ans1;
-         for(auto it: mp){
-                ans[ds.findUPar(it.second)].push_back(it.first);
+        map<int, set<string>> fi;
+
+        for (auto &it : mp) {
+            int p = find(it.second);
+            fi[p].insert(it.first);
         }
-        for(int i=0;i<n;i++){
-            if(!ans[i].empty()){
-                int par= ds.findUPar(mp[ans[i][0]]);
-                sort(ans[i].begin(),ans[i].end());
-                ans[i].insert(ans[i].begin(), accounts[par][0]);
-                ans1.push_back(ans[i]);
-            }
+
+        vector<vector<string>> ans;
+
+        for (auto &[key, st] : fi) {
+            vector<string> temp;
+            temp.push_back(acc[key][0]);
+
+            for (auto &email : st)
+                temp.push_back(email);
+
+            ans.push_back(temp);
         }
-        return ans1;
+
+        return ans;
     }
 };
