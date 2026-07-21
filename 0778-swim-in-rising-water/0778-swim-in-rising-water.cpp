@@ -7,8 +7,8 @@ public:
         int ans=grid[n-1][n-1];
         int dx[]={-1,0,1,0};
         int dy[]={0,1,0,-1};
-        vector<vector<int>> vis(n,vector<int>(n,-1));
-        vis[0][0]=1;
+        vector<vector<int>> vis(n,vector<int>(n,1e9));
+        vis[0][0]=grid[0][0];
         while(!q.empty()){
             int x=q.top()[1];
             int y=q.top()[2];
@@ -20,8 +20,8 @@ public:
             }
             for(int i=0;i<4;i++){
                 int newx=x+dx[i],newy=y+dy[i];
-                if(newx<n && newy<n && newx>=0 && newy>=0 && vis[newx][newy]==-1){
-                    vis[newx][newy]=1;
+                if(newx<n && newy<n && newx>=0 && newy>=0 && vis[newx][newy]>max(grid[newx][newy],time)){
+                    vis[newx][newy]=max(grid[newx][newy],time);
                     q.push({max(grid[newx][newy],time),newx,newy});
                 }
             }
