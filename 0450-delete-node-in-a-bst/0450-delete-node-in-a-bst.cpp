@@ -1,59 +1,61 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
- * };
- */
 class Solution {
 public:
-    void dfs(TreeNode* root, int key, TreeNode*& ans,
-             unordered_map<TreeNode*, TreeNode*>& mp) {
-        if (!root)
+    void travel(TreeNode* root, TreeNode*& target, TreeNode*& parent, int val, TreeNode* prev = nullptr) {
+        if (root == nullptr)
             return;
-        if (root->val == key) {
-            ans = root;
+            
+        if (root->val == val) {
+            target = root;
+            parent = prev; 
+            return;
         }
-        if (root->left)
-            mp[root->left] = root;
-        if (root->right)
-            mp[root->right] = root;
-        dfs(root->left, key, ans, mp);
-        dfs(root->right, key, ans, mp);
+        
+        if (root->val < val) {
+            travel(root->right, target, parent, val, root);
+        } else {
+            travel(root->left, target, parent, val, root);
+        }
     }
+
     TreeNode* deleteNode(TreeNode* root, int key) {
-        TreeNode* target = NULL;
-        unordered_map<TreeNode*, TreeNode*> mp;
-        dfs(root, key, target, mp);
-        if(target==NULL || !root)
-        return root;
-        TreeNode* exe=target->right;
-        if(exe==NULL){
-            if(mp[target]==NULL){
-                root=target->left;
-                return root;
+        if (root == nullptr) return nullptr;
+
+        TreeNode* ans = nullptr;
+        TreeNode* prev = nullptr; 
+        
+        travel(root, ans, prev, key);
+
+        if (ans == nullptr) return root;
+
+        if (ans->left != nullptr && ans->right != nullptr) {
+            TreeNode* successorParent = ans;
+            TreeNode* successor = ans->right;
+            
+            while (successor->left != nullptr) {
+                successorParent = successor;
+                successor = successor->left;
             }
-            if(mp[target]->right==target)
-            mp[target]->right=target->left;
-            else
-            mp[target]->left=target->left;
-            target->left=NULL;
-            return root;
+            
+            swap(ans->val, successor->val);
+            
+            ans = successor;
+            prev = successorParent;
         }
-        while(exe->left!=NULL){
-            exe=exe->left;
+
+        TreeNode* child = (ans->left != nullptr) ? ans->left : ans->right;
+
+        if (prev == nullptr) {
+            root = child;
+        } 
+        else if (prev->left == ans) {
+            prev->left = child; 
+        } 
+        else {
+            prev->right = child;
         }
-        swap(exe->val,target->val);
-            if(mp[exe]->left==exe)
-            mp[exe]->left=exe->right;
-            if(mp[exe]->right==exe)
-            mp[exe]->right=exe->right;
-            exe->right=NULL;
+
+        delete ans;
+        
         return root;
     }
 };
