@@ -1,61 +1,82 @@
 class Solution {
 public:
-    void travel(TreeNode* root, TreeNode*& target, TreeNode*& parent, int val, TreeNode* prev = nullptr) {
-        if (root == nullptr)
+    void travel(TreeNode* root, TreeNode*& ans, int val) {
+        if (root == NULL)
             return;
-            
         if (root->val == val) {
-            target = root;
-            parent = prev; 
+            ans = root;
             return;
         }
-        
         if (root->val < val) {
-            travel(root->right, target, parent, val, root);
-        } else {
-            travel(root->left, target, parent, val, root);
-        }
+            travel(root->right, ans, val);
+        } else
+            travel(root->left, ans, val);
     }
 
     TreeNode* deleteNode(TreeNode* root, int key) {
-        if (root == nullptr) return nullptr;
-
-        TreeNode* ans = nullptr;
-        TreeNode* prev = nullptr; 
-        
-        travel(root, ans, prev, key);
-
-        if (ans == nullptr) return root;
-
-        if (ans->left != nullptr && ans->right != nullptr) {
-            TreeNode* successorParent = ans;
-            TreeNode* successor = ans->right;
+        if (root == nullptr)
+            return nullptr;
             
-            while (successor->left != nullptr) {
-                successorParent = successor;
-                successor = successor->left;
+        TreeNode* ans = NULL;
+        travel(root, ans, key);
+        
+        TreeNode* prev = NULL;
+        if (ans == nullptr)
+            return root;
+
+        TreeNode* curr = root;
+        while (curr != ans) {
+            prev = curr;
+            if (key < curr->val) curr = curr->left;
+            else curr = curr->right;
+        }
+
+        if (ans->left == nullptr && ans->right == nullptr) {
+            if (prev == nullptr) return nullptr; 
+            
+            if (prev->left == ans) prev->left = nullptr;
+            else prev->right = nullptr;
+            
+            delete ans;
+            return root;
+        }
+
+        if (ans->right != nullptr) {
+            TreeNode* targetToSwap = ans; 
+            
+            prev = ans;
+            ans = ans->right;
+            
+            while (ans->left != nullptr) {
+                prev = ans;
+                ans = ans->left;
             }
             
-            swap(ans->val, successor->val);
+            swap(targetToSwap->val, ans->val);
             
-            ans = successor;
-            prev = successorParent;
+            if (prev->left == ans) {
+                prev->left = ans->right;
+            } else {
+                prev->right = ans->right; 
+            }
+            
+            delete ans;
+            return root;
         }
-
-        TreeNode* child = (ans->left != nullptr) ? ans->left : ans->right;
 
         if (prev == nullptr) {
-            root = child;
-        } 
-        else if (prev->left == ans) {
-            prev->left = child; 
-        } 
-        else {
-            prev->right = child;
+            TreeNode* newRoot = ans->left;
+            delete ans;
+            return newRoot;
         }
-
-        delete ans;
         
+        if (prev->left == ans) {
+            prev->left = ans->left;
+        } else {
+            prev->right = ans->left;
+        }
+        
+        delete ans;
         return root;
     }
 };
