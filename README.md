@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/divyansh884/Leetcode/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/divyansh884/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divyansh884/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/divyansh884/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1034-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/divyansh884/Leetcode/tree/master/1036-rotting-oranges) |
@@ -821,6 +822,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0937-online-stock-span](https://github.com/divyansh884/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/divyansh884/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divyansh884/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/divyansh884/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -1328,6 +1330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/divyansh884/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0937-online-stock-span](https://github.com/divyansh884/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/divyansh884/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divyansh884/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/divyansh884/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1628-count-submatrices-with-all-ones](https://github.com/divyansh884/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [2227-sum-of-subarray-ranges](https://github.com/divyansh884/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
@@ -1379,6 +1382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/divyansh884/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divyansh884/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
@@ -1399,6 +1403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/divyansh884/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/divyansh884/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divyansh884/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1428,6 +1433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/divyansh884/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/divyansh884/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/divyansh884/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
