@@ -1,31 +1,25 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        unordered_map<int, int> mp;
-        int i = 0, j = 0;
-        int ans = 0;
-        while (j < s.size()) {
-            mp[s[j]]++;
-            int sum = 0;
-            int maxi = 0;
-            for (auto it : mp) {
-                maxi = max(maxi, it.second);
-                sum += it.second;
-            }
-            while (sum - maxi > k) {
-                mp[s[i]]--;
-                if (mp[s[i]] == 0)
-                    mp.erase(s[i]);
-                i++;
-                sum = 0;
-                maxi = 0;
-                for (auto it : mp) {
-                    maxi = max(maxi, it.second);
-                    sum += it.second;
+        int n = s.size();
+        int ans = 1;
+        for (char cc = 'A'; cc <= 'Z'; cc++) {
+            priority_queue<int, vector<int>, greater<int>> pq;
+            int l = 0;
+            for (int i = 0; i < n; i++) {
+                if (s[i] != cc) {
+                    if (k == 0) {
+                        l = i + 1;
+                    } else if (pq.size() < k) {
+                        pq.push(i);
+                    } else {
+                        l = pq.top() + 1;
+                        pq.pop();
+                        pq.push(i);
+                    }
                 }
+                ans = max(ans, i - l + 1);
             }
-            ans = max(ans, j - i + 1);
-            j++;
         }
         return ans;
     }
