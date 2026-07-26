@@ -4,7 +4,7 @@ public:
         int n = s.size();
         int ans = 1;
         for (char cc = 'A'; cc <= 'Z'; cc++) {
-            priority_queue<int, vector<int>, greater<int>> pq;
+            queue<int> pq;
             int l = 0;
             for (int i = 0; i < n; i++) {
                 if (s[i] != cc) {
@@ -13,7 +13,7 @@ public:
                     } else if (pq.size() < k) {
                         pq.push(i);
                     } else {
-                        l = pq.top() + 1;
+                        l = pq.front() + 1;
                         pq.pop();
                         pq.push(i);
                     }
