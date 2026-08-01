@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/divyansh884/Leetcode/tree/master/0282-expression-add-operators) |
 | [0326-power-of-three](https://github.com/divyansh884/Leetcode/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/divyansh884/Leetcode/tree/master/0368-largest-divisible-subset) |
+| [0486-predict-the-winner](https://github.com/divyansh884/Leetcode/tree/master/0486-predict-the-winner) |
 | [0679-24-game](https://github.com/divyansh884/Leetcode/tree/master/0679-24-game) |
 | [0826-soup-servings](https://github.com/divyansh884/Leetcode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/divyansh884/Leetcode/tree/master/0867-new-21-game) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/divyansh884/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/divyansh884/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/divyansh884/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0486-predict-the-winner](https://github.com/divyansh884/Leetcode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/divyansh884/Leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/divyansh884/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/divyansh884/Leetcode/tree/master/0518-coin-change-ii) |
@@ -418,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/divyansh884/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/divyansh884/Leetcode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/divyansh884/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0486-predict-the-winner](https://github.com/divyansh884/Leetcode/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/divyansh884/Leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/divyansh884/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/divyansh884/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -1308,6 +1311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/divyansh884/Leetcode/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/divyansh884/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/divyansh884/Leetcode/tree/master/0326-power-of-three) |
+| [0486-predict-the-winner](https://github.com/divyansh884/Leetcode/tree/master/0486-predict-the-winner) |
 | [1197-parsing-a-boolean-expression](https://github.com/divyansh884/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/divyansh884/Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1922-count-good-numbers](https://github.com/divyansh884/Leetcode/tree/master/1922-count-good-numbers) |
@@ -1753,4 +1757,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/divyansh884/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/divyansh884/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/divyansh884/Leetcode/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
