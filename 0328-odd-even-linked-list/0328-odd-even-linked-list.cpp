@@ -1,37 +1,47 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
-        int cnt = 0;
+        if (head == NULL || head->next == NULL || head->next->next == NULL) 
+            return head;
+
+        ListNode* ans = new ListNode(-1);
+        ListNode* tempa = ans;
+        
+        ListNode* evens = new ListNode(-1);
+        ListNode* tempe = evens;
+
         ListNode* temp = head;
-        ListNode* oddhead = new ListNode(-1);
-        ListNode* evenhead = new ListNode(-1);
-        ListNode *oddtail = oddhead;
-        ListNode* eventail = evenhead;
-        while (temp) {
-            if (cnt % 2 == 0) {
-                oddtail->next = temp;
-                oddtail = temp;
-                // oddtail->next = NULL;
-            } else {
-                eventail->next = temp;
-                eventail = temp;
-                // eventail->next = NULL;
+        
+        while (temp != NULL) {
+            tempa->next = temp;
+            tempa = tempa->next;
+            
+            if (temp->next != NULL) {
+                tempe->next = temp->next;
+                tempe = tempe->next;
             }
-            temp = temp -> next;
-            cnt++;
+            
+            if (temp->next == NULL) 
+                break;
+                
+            temp = temp->next->next;
         }
-        eventail->next=NULL;
-        oddtail->next = evenhead->next;
-        return oddhead->next;
+        
+        tempe->next = NULL;
+        
+        temp = evens->next;
+        while (temp != NULL) {
+            tempa->next = temp;
+            tempa = tempa->next;
+            temp = temp->next;
+        }
+        
+        tempa->next = NULL;
+        
+        ListNode* result = ans->next;
+        delete ans;
+        delete evens;
+        
+        return result;
     }
 };
