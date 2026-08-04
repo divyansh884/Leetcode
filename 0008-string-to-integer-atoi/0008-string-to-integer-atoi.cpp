@@ -1,32 +1,32 @@
 class Solution {
 public:
     int myAtoi(string s) {
-         long long int ans=0;
-        int i=0;
-        bool checkn=false;
-        while(i<s.size() && s[i]==' '){
-            i++;
-        }
-        if(i>=s.size())
-        return ans;
-        if(s[i]=='-' || s[i]=='+'){
-            if(s[i]=='-')
-        checkn=true;
-        i++;
-        }
-        for(int j=i;j<s.size();j++){
-            if(s[j]>='0' && s[j]<='9'){
-                ans = ans*10 + (s[j]-'0');
-                if(!checkn && ans>INT_MAX)
-                return INT_MAX;
-                if(checkn && ans*-1<INT_MIN)
-                return INT_MIN;
+        int ans = 0;
+        bool numcheck = false;
+        int sign = 1;
+        for (int i = 0; i < s.size(); i++) {
+            if ((s[i] == '-' || s[i] == '+') && !numcheck) {
+                numcheck = true;
+
+                if (s[i] == '-')
+                    sign = -1;
             }
-            else
-            break;
+            else if (s[i] >= '0' && s[i] <= '9') {
+                int digit = s[i] - '0';
+                if (ans > INT_MAX / 10 ||
+                    (ans == INT_MAX / 10 && digit > INT_MAX % 10)) {
+                    return sign == 1 ? INT_MAX : INT_MIN;
+                }
+                ans = ans * 10 + digit;
+                numcheck = true;
+            }
+            else {
+                if (s[i] >= 'a' && s[i] <= 'z')
+                    break;
+                if (numcheck)
+                    break;
+            }
         }
-        if(checkn)
-        ans=ans*-1;
-        return ans;
+        return ans * sign;
     }
 };
