@@ -8,24 +8,16 @@ public:
             pro *= e;
             temp /= 10;
         }
-        if(pro%t==0)
-        return n;
-        int num = n % 10;
-        pro/=num;
-        n/=10;
-        bool check = false;
-        while (num < 10) {
-            if ((pro*num) % t == 0) {
-                check = true;
-                break;
-            }
-            if (num != 10)
-                num++;
-        }
-        if (check) {
-            n = n * 10 + num;
+        if (pro % t == 0)
             return n;
+        int num = n % 10;
+        pro /= num;
+        n /= 10;
+        while (num <= 9) {
+            if ((pro * num) % t == 0)
+                return n * 10 + num;
+            num++;
         }
-        return (n * 10) + 10;
+        return (n + 1) * 10;
     }
 };
