@@ -10,54 +10,37 @@
  */
 class Solution {
 public:
-    int len(ListNode* head) {
-        int count = 0;
-        ListNode* temp = head;
-        while (temp != NULL) {
-            temp = temp->next;
-            count++;
-        }
-        return count;
-    }
-    ListNode* ans(ListNode* pre,ListNode*cur,int k,int count){
-        if(cur==NULL)
-        return pre;
-        if(len(cur)<k){
-            ListNode*  temp=pre;
-            while(temp->next!=NULL)
-            temp= temp->next;
-            temp->next= cur;
-            return pre;
-        }
-        ListNode* curr = cur;
-        ListNode* prev = NULL;
-        int i = 0;
-        count++;
-        while (i < k) {
-            ListNode* temp = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = temp;
-            i++;
-        }
-        ListNode*  temp=pre;
-            while(temp->next!=NULL)
-            temp= temp->next;
-            temp->next= prev;
-        return ans(pre,curr,k,count);
-    }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode* curr = head;
-        ListNode* prev = NULL;
-        int i = 0;
-        int count=1;
-        while (i < k) {
-            ListNode* temp = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = temp;
-            i++;
+        map<ListNode*,ListNode*> mp;
+        ListNode* temp=head;
+        ListNode* prev=NULL;
+        while(temp!=NULL){
+            mp[temp]=prev;
+            prev=temp;
+            temp=temp->next;
         }
-        return ans(prev,curr,k,count);
+        int cnt=0;
+        temp=head;
+        ListNode* st=head;
+        while(temp!=NULL){
+            if(cnt==0)
+            st=temp;
+            cnt++;
+            if(cnt==k){
+                int i=0;
+                int j=k-1;
+                ListNode* tt=temp;
+                while(i<j){
+                    swap(st->val,tt->val);
+                    st=st->next;
+                    tt=mp[tt];
+                    i++;
+                    j--;
+                }
+                cnt=0;
+            }
+            temp=temp->next;
+        }
+        return head;
     }
 };
