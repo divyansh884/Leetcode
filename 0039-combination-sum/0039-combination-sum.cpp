@@ -1,24 +1,32 @@
 class Solution {
 public:
-void f(set<vector<int>> &st,vector<int> &temp, int i,vector<int> &arr,int target){
-    if(i==arr.size()){
-        if(target==0)
-        st.insert(temp);
-        return;
+    void f(int i, vector<int>& temp, int& sum, set<vector<int>>& ans,
+           int& target, vector<int>& arr) {
+        if (sum == target) {
+            ans.insert(temp);
+            return;
+        }
+        if (sum > target)
+            return;
+        if (i >= arr.size()) {
+            return;
+        }
+        for (int j = i; j < arr.size(); j++) {
+            temp.push_back(arr[j]);
+            sum += arr[j];
+            f(j, temp, sum, ans, target, arr);
+            temp.pop_back();
+            sum -= arr[j];
+        }
     }
-    if(target-arr[i]>=0){
-    temp.push_back(arr[i]);
-    f(st,temp,i,arr,target-arr[i]);
-    temp.pop_back();
-    }
-    f(st,temp,i+1,arr,target);
-}
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        set<vector<int>> st;
+        set<vector<int>> ans;
         vector<int> temp;
-        int i=0,tt=target;
-        f(st,temp,i,candidates,tt);
-        vector<vector<int>> ans(st.begin(),st.end());
-        return ans;
+        int sum=0;
+        f(0, temp, sum, ans, target, candidates);
+        vector<vector<int>> vec;
+        for(auto it: ans)
+        vec.push_back(it);
+        return vec;
     }
 };
