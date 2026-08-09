@@ -1,24 +1,35 @@
 class Solution {
 public:
-void solve(int index,vector<int> &ds,vector<int> arr,int k,int n,vector<vector<int>> &ans ){
-    if(k==0){
-        ans.push_back(ds);
-        return;
+    void f(int i, vector<int>& temp, int& sum, set<vector<int>>& ans,
+           int& target, vector<int>& arr) {
+        if (sum == target) {
+            ans.insert(temp);
+            return;
+        }
+        if (sum > target)
+            return;
+        if (i >= arr.size()) {
+            return;
+        }
+        for (int j = i; j < arr.size(); j++) {
+            if (j > i && arr[j] == arr[j - 1])
+                continue;
+            temp.push_back(arr[j]);
+            sum += arr[j];
+            f(j + 1, temp, sum, ans, target, arr);
+            temp.pop_back();
+            sum -= arr[j];
+        }
     }
-    for(int i=index;i<n;i++){
-        if(i>index && arr[i]==arr[i-1]) continue;
-        if(arr[i]>k) break;
-        ds.push_back(arr[i]);
-        solve(i+1,ds,arr,k-arr[i],n, ans);
-        ds.pop_back();
-    }
-}
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector<int>> ans;
-        vector<int> ds;
-        int index=0,sum=0,n=candidates.size();
-        sort(candidates.begin(),candidates.end());
-        solve(index,ds,candidates,target,n, ans);
-        return ans;
+        sort(candidates.begin(), candidates.end());
+        set<vector<int>> ans;
+        vector<int> temp;
+        int sum = 0;
+        f(0, temp, sum, ans, target, candidates);
+        vector<vector<int>> vec;
+        for (auto it : ans)
+            vec.push_back(it);
+        return vec;
     }
 };
