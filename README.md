@@ -1785,4 +1785,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/divyansh884/Leetcode/tree/master/1140-stone-game-ii) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/divyansh884/Leetcode/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
