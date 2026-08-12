@@ -1,33 +1,27 @@
 class Solution {
 public:
-vector<int> prefixmax(vector<int>& height){
-    int ans=height[0];
-    vector<int> re(height.size());
-    for(int i=0;i<height.size();i++){
-        ans=max(ans,height[i]);
-        re[i]=ans;
-    }
-    return re;
-}
-vector<int> suffixmax(vector<int>& height){
-    int n=height.size();
-    int ans=height[n-1];
-    vector<int> re(n);
-    for(int i=n-1;i>=0;i--){
-        ans=max(ans,height[i]);
-        re[i]=ans;
-    }
-    return re;
-}
     int trap(vector<int>& height) {
-        int total=0;
-        vector<int> pref=prefixmax(height);
-        vector<int> suff=suffixmax(height);
-        for(int i=0;i<height.size();i++){
-            if(height[i]<pref[i]&& height[i]<suff[i]){
-                total+=min(pref[i],suff[i])-height[i];
+        int left=0,right=height.size()-1;
+        int maxleft=0,maxright=0;
+        int ans=0;
+        while(left<=right){
+            if(height[left]<=height[right]){
+                if(maxleft<=height[left])
+                maxleft=height[left];
+                else{
+                    ans+=maxleft-height[left];
+                }
+                left++;
+            }
+            else{
+                if(maxright<=height[right])
+                maxright=height[right];
+                else{
+                    ans+=maxright-height[right];
+                }
+                right--;
             }
         }
-        return total;
+        return ans;
     }
 };
