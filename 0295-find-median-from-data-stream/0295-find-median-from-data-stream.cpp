@@ -50,7 +50,6 @@ public:
     }
     
     double findMedian() {
-        cout<<pq1.size()<<pq2.size()<<endl;
         if(pq1.size()==pq2.size()){
             double temp1=pq1.top();
             double temp2=pq2.top();
