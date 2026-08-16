@@ -11,16 +11,7 @@
  */
 class Solution {
 public:
-void travel(TreeNode* root,int &count){
-    if(root==NULL)
-    return;
-    count++;
-    travel(root->left,count);
-    travel(root->right,count);
-}
     int countNodes(TreeNode* root) {
-        int count=0;
-        travel(root,count);
-        return count;
+        
     }
 };
