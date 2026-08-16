@@ -1,82 +1,80 @@
 class Solution {
 public:
-    void travel(TreeNode* root, TreeNode*& ans, int val) {
+    void f(TreeNode* root, TreeNode* prev, TreeNode*& temp, TreeNode*& parent, int key) {
         if (root == NULL)
             return;
-        if (root->val == val) {
-            ans = root;
+            
+        if (root->val == key) {
+            temp = root;
+            parent = prev;
             return;
         }
-        if (root->val < val) {
-            travel(root->right, ans, val);
-        } else
-            travel(root->left, ans, val);
+        
+        if (key < root->val) 
+            f(root->left, root, temp, parent, key);
+        else 
+            f(root->right, root, temp, parent, key);
     }
-
-    TreeNode* deleteNode(TreeNode* root, int key) {
-        if (root == nullptr)
-            return nullptr;
-            
-        TreeNode* ans = NULL;
-        travel(root, ans, key);
-        
-        TreeNode* prev = NULL;
-        if (ans == nullptr)
-            return root;
-
-        TreeNode* curr = root;
-        while (curr != ans) {
-            prev = curr;
-            if (key < curr->val) curr = curr->left;
-            else curr = curr->right;
-        }
-
-        if (ans->left == nullptr && ans->right == nullptr) {
-            if (prev == nullptr) return nullptr; 
-            
-            if (prev->left == ans) prev->left = nullptr;
-            else prev->right = nullptr;
-            
-            delete ans;
-            return root;
-        }
-
-        if (ans->right != nullptr) {
-            TreeNode* targetToSwap = ans; 
-            
-            prev = ans;
-            ans = ans->right;
-            
-            while (ans->left != nullptr) {
-                prev = ans;
-                ans = ans->left;
-            }
-            
-            swap(targetToSwap->val, ans->val);
-            
-            if (prev->left == ans) {
-                prev->left = ans->right;
+    
+    void h(TreeNode* temp, TreeNode* parent, TreeNode*& root) {
+        if (temp->left == NULL && temp->right == NULL) {
+            if (parent == NULL) { 
+                root = NULL;
+            } else if (parent->left == temp) {
+                parent->left = NULL;
             } else {
-                prev->right = ans->right; 
+                parent->right = NULL;
             }
-            
-            delete ans;
+            delete temp;
+            return;
+        }
+        
+        if (temp->right != NULL) {
+            TreeNode* te = temp->right;
+            TreeNode* prev = temp;
+            while (te->left != NULL) {
+                prev = te;
+                te = te->left;
+            }
+            swap(temp->val, te->val);
+            if (prev == temp)
+                prev->right = te->right;
+            else
+                prev->left = te->right;
+                
+            delete te;
+            return;
+        }
+        
+        if (temp->left != NULL) {
+            TreeNode* te = temp->left;
+            TreeNode* prev = temp;
+            while (te->right != NULL) {
+                prev = te;
+                te = te->right;
+            }
+            swap(temp->val, te->val);
+            if (prev == temp)
+                prev->left = te->left;
+            else
+                prev->right = te->left;
+                
+            delete te;
+            return;
+        }
+    }
+    
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        TreeNode* temp = NULL;
+        TreeNode* parent = NULL;
+        
+        f(root, NULL, temp, parent, key);
+        
+        if (temp == NULL)
             return root;
-        }
-
-        if (prev == nullptr) {
-            TreeNode* newRoot = ans->left;
-            delete ans;
-            return newRoot;
-        }
+            
+        h(temp, parent, root);
         
-        if (prev->left == ans) {
-            prev->left = ans->left;
-        } else {
-            prev->right = ans->left;
-        }
-        
-        delete ans;
         return root;
     }
 };
