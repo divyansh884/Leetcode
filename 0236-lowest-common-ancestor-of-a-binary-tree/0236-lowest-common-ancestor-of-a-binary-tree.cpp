@@ -12,7 +12,7 @@ public:
 TreeNode* lca(TreeNode* root,TreeNode* p,TreeNode* q)
 {
     TreeNode* node=root;
-    if(node==nullptr) return 0;
+    if(node==nullptr) return NULL;
     TreeNode* leftside=lca(node->left,p,q);
     TreeNode*  rightside=lca(node->right,p,q);
     if((leftside&&rightside)||(node==p)||(node==q))
