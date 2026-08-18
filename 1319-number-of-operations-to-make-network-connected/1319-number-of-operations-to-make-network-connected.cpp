@@ -1,42 +1,42 @@
 class Solution {
-    vector<int> parent, size;
+    vector<int> par, size;
 
 public:
-    int findUPar(int node) {
-        if (node == parent[node])
+    int fup(int node) {
+        if (node == par[node])
             return node;
-        return parent[node] = findUPar(parent[node]);
+        return par[node] = fup(par[node]);
     }
-    void unionBysize(int u, int v) {
-         int ulp_u = findUPar(u);
-        int ulp_v = findUPar(v);
-        if (ulp_u == ulp_v) return;
-        if (size[ulp_u] < size[ulp_v]) {
-            parent[ulp_u] = ulp_v;
-            size[ulp_v] += size[ulp_u];
-        }
-        else {
-            parent[ulp_v] = ulp_u;
-            size[ulp_u] += size[ulp_v];
+    void f(int u, int v) {
+        int ulpu = fup(u);
+        int ulpv = fup(v);
+        if(ulpu==ulpv)
+        return;
+        if (size[ulpu] < size[ulpv]) {
+            par[ulpu] = ulpv;
+            size[ulpv] += size[ulpu];
+        } else {
+            par[ulpv] = ulpu;
+            size[ulpu] += size[ulpv];
         }
     }
     int makeConnected(int n, vector<vector<int>>& connections) {
-        parent.resize(n);
+        par.resize(n);
         size.resize(n);
         for (int i = 0; i < n; i++) {
-            parent[i] = i;
+            par[i] = i;
             size[i] = 1;
         }
         if (connections.size() < n - 1)
             return -1;
         for (int i = 0; i < connections.size(); i++) {
-            unionBysize(connections[i][0],connections[i][1]);
+            f(connections[i][0], connections[i][1]);
         }
-        int ans=0;
-        for(int i=0;i<n;i++){
-            if(findUPar(0)!=findUPar(i)){
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            if (fup(0) != fup(i)) {
                 ans++;
-                unionBysize(0,i);
+                f(0, i);
             }
         }
         return ans;
