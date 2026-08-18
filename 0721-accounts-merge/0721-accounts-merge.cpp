@@ -1,54 +1,84 @@
 class Solution {
-    vector<int> parent;
-
-    int find(int x) {
-        if (parent[x] == x)
-            return x;
-        return parent[x] = find(parent[x]);
-    }
-
-    void unite(int u, int v) {
-        u = find(u);
-        v = find(v);
-        if (u != v)
-            parent[v] = u;
-    }
+    vector<int> par, size;
 
 public:
-    vector<vector<string>> accountsMerge(vector<vector<string>>& acc) {
-        int n = acc.size();
-        parent.resize(n);
+
+    int fup(int node) {
+        if (node == par[node])
+            return node;
+
+        return par[node] = fup(par[node]);
+    }
+
+    void f(int u, int v) {
+        int ulpu = fup(u);
+        int ulpv = fup(v);
+
+        if (ulpu == ulpv)
+            return;
+
+        if (size[ulpu] < size[ulpv]) {
+            par[ulpu] = ulpv;
+            size[ulpv] += size[ulpu];
+        }
+        else {
+            par[ulpv] = ulpu;
+            size[ulpu] += size[ulpv];
+        }
+    }
+
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+
+        int n = accounts.size();
+
+        par.resize(n);
+        size.resize(n, 1);
 
         for (int i = 0; i < n; i++)
-            parent[i] = i;
+            par[i] = i;
 
         map<string, int> mp;
         for (int i = 0; i < n; i++) {
-            for (int j = 1; j < acc[i].size(); j++) {
-                if (mp.find(acc[i][j]) == mp.end()) {
-                    mp[acc[i][j]] = i;
-                } else {
-                    unite(i, mp[acc[i][j]]);
+
+            for (int j = 1; j < accounts[i].size(); j++) {
+
+                string email = accounts[i][j];
+
+                if (mp.find(email) == mp.end()) {
+                    mp[email] = i;
+                }
+                else {
+                    f(i, mp[email]);
                 }
             }
         }
-        map<int, set<string>> fi;
+        map<int, vector<string>> temp;
 
-        for (auto &it : mp) {
-            int p = find(it.second);
-            fi[p].insert(it.first);
+        for (auto it : mp) {
+
+            string email = it.first;
+            int account = it.second;
+
+            int parent = fup(account);
+
+            temp[parent].push_back(email);
         }
-
         vector<vector<string>> ans;
 
-        for (auto &[key, st] : fi) {
-            vector<string> temp;
-            temp.push_back(acc[key][0]);
+        for (auto &it : temp) {
 
-            for (auto &email : st)
-                temp.push_back(email);
+            int parent = it.first;
 
-            ans.push_back(temp);
+            vector<string> curr;
+
+            curr.push_back(accounts[parent][0]);
+
+            sort(it.second.begin(), it.second.end());
+
+            for (auto &email : it.second)
+                curr.push_back(email);
+
+            ans.push_back(curr);
         }
 
         return ans;
