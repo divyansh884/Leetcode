@@ -3,37 +3,50 @@ public:
     static bool compare(string& s1, string& s2) {
         return s1.size() < s2.size();
     }
-    bool comp(string& word2, string& word1) {
-        int i = word2.size() - 1, j = word1.size() - 1;
-        if (i != j + 1)
+
+    bool comp(string& longer, string& shorter) {
+        if (longer.size() != shorter.size() + 1)
             return false;
-        while (i >= 0 && j >= 0) {
-            if (word2[i] == word1[j]) {
-                i--;
-                j--;
+
+        int i = 0, j = 0;
+
+        while (i < longer.size()) {
+            if (j < shorter.size() && longer[i] == shorter[j]) {
+                i++;
+                j++;
             } else {
-                i--;
+                i++;
             }
         }
-        if (j < 0)
-            return true;
-        return false;
+
+        return j == shorter.size();
     }
+
+    int f(int i, int j, vector<string>& arr, vector<vector<int>>& dp) {
+        if (j >= arr.size())
+            return 0;
+
+        if (dp[i + 1][j] != -1)
+            return dp[i + 1][j];
+
+        int take = 0;
+
+        if (i == -1 || comp(arr[j], arr[i])) {
+            take = 1 + f(j, j + 1, arr, dp);
+        }
+
+        int ntake = f(i, j + 1, arr, dp);
+
+        return dp[i + 1][j] = max(take, ntake);
+    }
+
     int longestStrChain(vector<string>& words) {
         int n = words.size();
-        vector<int> dp(n, 1);
-        int maxi = 0;
+
         sort(words.begin(), words.end(), compare);
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (comp(words[i], words[j]) && dp[j] + 1 > dp[i]) {
-                    dp[i] = dp[j] + 1;
-                }
-            }
-            if (dp[i] > maxi) {
-                maxi = dp[i];
-            }
-        }
-        return maxi;
+
+        vector<vector<int>> dp(n + 1, vector<int>(n, -1));
+
+        return f(-1, 0, words, dp);
     }
 };
