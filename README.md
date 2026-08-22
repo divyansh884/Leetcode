@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/divyansh884/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3875-construct-uniform-parity-array-i](https://github.com/divyansh884/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/divyansh884/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
+| [4021-minimum-operations-to-make-a-rotated-palindrome-i](https://github.com/divyansh884/Leetcode/tree/master/4021-minimum-operations-to-make-a-rotated-palindrome-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/divyansh884/Leetcode/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3838-weighted-word-mapping](https://github.com/divyansh884/Leetcode/tree/master/3838-weighted-word-mapping) |
 | [3905-partition-string](https://github.com/divyansh884/Leetcode/tree/master/3905-partition-string) |
+| [4021-minimum-operations-to-make-a-rotated-palindrome-i](https://github.com/divyansh884/Leetcode/tree/master/4021-minimum-operations-to-make-a-rotated-palindrome-i) |
 ## Greedy
 |  |
 | ------- |
@@ -1061,6 +1063,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3713-longest-balanced-substring-i](https://github.com/divyansh884/Leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/divyansh884/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/divyansh884/Leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [4021-minimum-operations-to-make-a-rotated-palindrome-i](https://github.com/divyansh884/Leetcode/tree/master/4021-minimum-operations-to-make-a-rotated-palindrome-i) |
 ## Linked List
 |  |
 | ------- |
