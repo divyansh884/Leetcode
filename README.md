@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3875-construct-uniform-parity-array-i](https://github.com/divyansh884/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/divyansh884/Leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [4021-minimum-operations-to-make-a-rotated-palindrome-i](https://github.com/divyansh884/Leetcode/tree/master/4021-minimum-operations-to-make-a-rotated-palindrome-i) |
+| [4022-k-th-digit-in-infinite-string](https://github.com/divyansh884/Leetcode/tree/master/4022-k-th-digit-in-infinite-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1146,6 +1147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/divyansh884/Leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/divyansh884/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/divyansh884/Leetcode/tree/master/3791-fruits-into-baskets-iii) |
+| [4022-k-th-digit-in-infinite-string](https://github.com/divyansh884/Leetcode/tree/master/4022-k-th-digit-in-infinite-string) |
 ## Sliding Window
 |  |
 | ------- |
