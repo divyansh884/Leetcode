@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/divyansh884/Leetcode/tree/master/1563-stone-game-v) |
 | [1642-water-bottles](https://github.com/divyansh884/Leetcode/tree/master/1642-water-bottles) |
 | [1840-maximum-building-height](https://github.com/divyansh884/Leetcode/tree/master/1840-maximum-building-height) |
+| [1872-stone-game-viii](https://github.com/divyansh884/Leetcode/tree/master/1872-stone-game-viii) |
 | [1922-count-good-numbers](https://github.com/divyansh884/Leetcode/tree/master/1922-count-good-numbers) |
 | [1927-sum-game](https://github.com/divyansh884/Leetcode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/divyansh884/Leetcode/tree/master/2029-stone-game-ix) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/divyansh884/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/divyansh884/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1871-jump-game-vii](https://github.com/divyansh884/Leetcode/tree/master/1871-jump-game-vii) |
+| [1872-stone-game-viii](https://github.com/divyansh884/Leetcode/tree/master/1872-stone-game-viii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/divyansh884/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/divyansh884/Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2463-minimum-total-distance-traveled](https://github.com/divyansh884/Leetcode/tree/master/2463-minimum-total-distance-traveled) |
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/divyansh884/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/divyansh884/Leetcode/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/divyansh884/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1872-stone-game-viii](https://github.com/divyansh884/Leetcode/tree/master/1872-stone-game-viii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/divyansh884/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/divyansh884/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1895-largest-magic-square](https://github.com/divyansh884/Leetcode/tree/master/1895-largest-magic-square) |
@@ -1206,6 +1209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/divyansh884/Leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1732-find-the-highest-altitude](https://github.com/divyansh884/Leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/divyansh884/Leetcode/tree/master/1871-jump-game-vii) |
+| [1872-stone-game-viii](https://github.com/divyansh884/Leetcode/tree/master/1872-stone-game-viii) |
 | [1895-largest-magic-square](https://github.com/divyansh884/Leetcode/tree/master/1895-largest-magic-square) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/divyansh884/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/divyansh884/Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
@@ -1820,6 +1824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/divyansh884/Leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/divyansh884/Leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/divyansh884/Leetcode/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/divyansh884/Leetcode/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/divyansh884/Leetcode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/divyansh884/Leetcode/tree/master/2029-stone-game-ix) |
 ## Minimax
@@ -1827,12 +1832,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/divyansh884/Leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/divyansh884/Leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/divyansh884/Leetcode/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/divyansh884/Leetcode/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/divyansh884/Leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/divyansh884/Leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/divyansh884/Leetcode/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/divyansh884/Leetcode/tree/master/2029-stone-game-ix) |
 ## Algorithm X
 |  |
