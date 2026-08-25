@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/divyansh884/Leetcode/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3838-weighted-word-mapping](https://github.com/divyansh884/Leetcode/tree/master/3838-weighted-word-mapping) |
 | [3905-partition-string](https://github.com/divyansh884/Leetcode/tree/master/3905-partition-string) |
+| [3998-transform-binary-string-using-subsequence-sort](https://github.com/divyansh884/Leetcode/tree/master/3998-transform-binary-string-using-subsequence-sort) |
 | [4021-minimum-operations-to-make-a-rotated-palindrome-i](https://github.com/divyansh884/Leetcode/tree/master/4021-minimum-operations-to-make-a-rotated-palindrome-i) |
 ## Greedy
 |  |
@@ -352,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/divyansh884/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/divyansh884/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/divyansh884/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
+| [3998-transform-binary-string-using-subsequence-sort](https://github.com/divyansh884/Leetcode/tree/master/3998-transform-binary-string-using-subsequence-sort) |
 ## Array
 |  |
 | ------- |
@@ -664,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/divyansh884/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3975-filter-occupied-intervals](https://github.com/divyansh884/Leetcode/tree/master/3975-filter-occupied-intervals) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/divyansh884/Leetcode/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
+| [3998-transform-binary-string-using-subsequence-sort](https://github.com/divyansh884/Leetcode/tree/master/3998-transform-binary-string-using-subsequence-sort) |
 ## Hash Table
 |  |
 | ------- |
@@ -857,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/divyansh884/Leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/divyansh884/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/divyansh884/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3998-transform-binary-string-using-subsequence-sort](https://github.com/divyansh884/Leetcode/tree/master/3998-transform-binary-string-using-subsequence-sort) |
 ## Stack
 |  |
 | ------- |
