@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1975-maximum-matrix-sum](https://github.com/divyansh884/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2029-stone-game-ix](https://github.com/divyansh884/Leetcode/tree/master/2029-stone-game-ix) |
 | [2032-largest-odd-number-in-string](https://github.com/divyansh884/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/divyansh884/Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2126-destroying-asteroids](https://github.com/divyansh884/Leetcode/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/divyansh884/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2154-minimum-moves-to-convert-string](https://github.com/divyansh884/Leetcode/tree/master/2154-minimum-moves-to-convert-string) |
@@ -555,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/divyansh884/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2029-stone-game-ix](https://github.com/divyansh884/Leetcode/tree/master/2029-stone-game-ix) |
 | [2047-find-a-peak-element-ii](https://github.com/divyansh884/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/divyansh884/Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/divyansh884/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2126-destroying-asteroids](https://github.com/divyansh884/Leetcode/tree/master/2126-destroying-asteroids) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/divyansh884/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
