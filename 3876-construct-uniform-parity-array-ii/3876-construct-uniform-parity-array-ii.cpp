@@ -1,22 +1,15 @@
 class Solution {
 public:
-    bool uniformArray(vector<int>& nums) {
-        int cnte = 0, cnto = 0, n = nums.size();
-        int mine = INT_MAX, mino = INT_MAX;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] % 2 == 0){
-                cnte++;
-                mine=min(mine,nums[i]);
-            }
-            else{
-                cnto++;
-                mino=min(mino,nums[i]);
-            }
+    bool uniformArray(vector<int>& nums1) {
+        sort(nums1.begin(), nums1.end());
+        int n = nums1.size();
+        if (nums1[0] % 2 != 0)
+        return true;
+        int cnto=0;
+        for(int i=0;i<n;i++){
+            if(nums1[i]%2!=0)
+            cnto++;
         }
-        if(cnte==n || cnto==n)
-        return true;
-        if(mine-mino<=0)
-        return false;
-        return true;
+        return cnto==0;
     }
 };
