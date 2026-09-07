@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/divyansh884/Leetcode/tree/master/0867-new-21-game) |
 | [0931-minimum-falling-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/divyansh884/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
+| [0940-distinct-subsequences-ii](https://github.com/divyansh884/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/divyansh884/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/divyansh884/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1043-partition-array-for-maximum-sum](https://github.com/divyansh884/Leetcode/tree/master/1043-partition-array-for-maximum-sum) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/divyansh884/Leetcode/tree/master/0807-custom-sort-string) |
 | [0812-rotate-string](https://github.com/divyansh884/Leetcode/tree/master/0812-rotate-string) |
 | [0874-backspace-string-compare](https://github.com/divyansh884/Leetcode/tree/master/0874-backspace-string-compare) |
+| [0940-distinct-subsequences-ii](https://github.com/divyansh884/Leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [0952-word-subsets](https://github.com/divyansh884/Leetcode/tree/master/0952-word-subsets) |
 | [1021-remove-outermost-parentheses](https://github.com/divyansh884/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1048-longest-string-chain](https://github.com/divyansh884/Leetcode/tree/master/1048-longest-string-chain) |
