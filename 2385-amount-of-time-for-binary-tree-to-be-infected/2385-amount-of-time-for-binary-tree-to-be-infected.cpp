@@ -40,30 +40,28 @@ public:
         unordered_map<TreeNode*, TreeNode*> parent;
          dfs(root, parent, st, start);
         unordered_map<TreeNode*, bool> visited;
-        queue<TreeNode*> q;
-        q.push(st);
+        queue<pair<TreeNode*,int>> q;
+        q.push({st,0});
         visited[st] = true;
         int dist = 0;
         while (!q.empty()) {
-            int size = q.size();
-            dist++;
-            for (int i = 0; i < size; i++) {
-                TreeNode* temp = q.front();
+                TreeNode* temp = q.front().first;
+                int cnt=q.front().second;
                 q.pop();
+                dist=max(dist,cnt);
                 if (temp->left && !visited[temp->left]) {
-                    q.push(temp->left);
+                    q.push({temp->left,cnt+1});
                     visited[temp->left] = true;
                 }
                 if (temp->right && !visited[temp->right]) {
-                    q.push(temp->right);
+                    q.push({temp->right,cnt+1});
                     visited[temp->right] = true;
                 }
                 if (parent[temp] && !visited[parent[temp]]) {
-                    q.push(parent[temp]);
+                    q.push({parent[temp],cnt+1});
                     visited[parent[temp]] = true;
                 }
-            }
         } 
-         return dist-1;
+         return dist;
     }
 };
