@@ -1,26 +1,44 @@
 class Solution {
 public:
+    vector<int> nge(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> ans(n, -1);
+        stack<int> st;
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.empty() && nums[st.top()] < nums[i])
+                st.pop();
+            if (!st.empty()) {
+                ans[i] = st.top();
+            }
+            st.push(i);
+        }
+        return ans;
+    }
+    vector<int> ngs(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> ans(n, -1);
+        stack<int> st;
+        for (int i = 0; i < n; i++) {
+            while (!st.empty() && nums[st.top()] <= nums[i])
+                st.pop();
+            if (!st.empty()) {
+                ans[i] = st.top();
+            }
+            st.push(i);
+        }
+        return ans;
+    }
+
     int trap(vector<int>& height) {
-        int left=0,right=height.size()-1;
-        int maxleft=0,maxright=0;
-        int ans=0;
-        while(left<=right){
-            if(height[left]<=height[right]){
-                if(maxleft<=height[left])
-                maxleft=height[left];
-                else{
-                    ans+=maxleft-height[left];
-                }
-                left++;
-            }
-            else{
-                if(maxright<=height[right])
-                maxright=height[right];
-                else{
-                    ans+=maxright-height[right];
-                }
-                right--;
-            }
+        vector<int> ng = nge(height);
+        vector<int> ns = ngs(height);
+        int ans = 0;
+        int n=height.size();
+        for (int i = 0; i < n; i++) {
+            if (ng[i] == -1 || ns[i] == -1)
+                continue;
+            ans += (min(height[ng[i]], height[ns[i]]) - height[i]) *
+                   (ng[i] - ns[i]-1);
         }
         return ans;
     }
