@@ -1837,6 +1837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0182-duplicate-emails](https://github.com/divyansh884/Leetcode/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/divyansh884/Leetcode/tree/master/0183-customers-who-never-order) |
 | [0595-big-countries](https://github.com/divyansh884/Leetcode/tree/master/0595-big-countries) |
+| [1068-product-sales-analysis-i](https://github.com/divyansh884/Leetcode/tree/master/1068-product-sales-analysis-i) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/divyansh884/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1757-recyclable-and-low-fat-products](https://github.com/divyansh884/Leetcode/tree/master/1757-recyclable-and-low-fat-products) |
 ## Counting Sort
