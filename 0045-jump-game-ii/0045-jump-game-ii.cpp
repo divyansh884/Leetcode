@@ -1,25 +1,18 @@
 class Solution {
 public:
     int jump(vector<int>& nums) {
-        int maxind = 0;
-        int prevmaxind = 0;
-        int step = 0;
         int n = nums.size();
-
-        for (int i = 0; i < n; i++) {
-            if (prevmaxind >= n - 1)
-                break;
-
-            if (i + nums[i] > maxind) {
-                maxind = i + nums[i];
-            }
-
-            if (i == prevmaxind) {
+        int currj=0;
+        int far=0;
+        int step=0;
+        for (int i = 0; i < n-1; i++) {
+            int jump=i+nums[i];
+            far=max(far,jump);
+            if(i>=currj){
                 step++;
-                prevmaxind = maxind;
+                currj=far;
             }
         }
-
         return step;
     }
 };
