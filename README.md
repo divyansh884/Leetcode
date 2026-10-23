@@ -1843,6 +1843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0595-big-countries](https://github.com/divyansh884/Leetcode/tree/master/0595-big-countries) |
 | [0620-not-boring-movies](https://github.com/divyansh884/Leetcode/tree/master/0620-not-boring-movies) |
 | [1068-product-sales-analysis-i](https://github.com/divyansh884/Leetcode/tree/master/1068-product-sales-analysis-i) |
+| [1075-project-employees-i](https://github.com/divyansh884/Leetcode/tree/master/1075-project-employees-i) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/divyansh884/Leetcode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1661-average-time-of-process-per-machine](https://github.com/divyansh884/Leetcode/tree/master/1661-average-time-of-process-per-machine) |
 | [1757-recyclable-and-low-fat-products](https://github.com/divyansh884/Leetcode/tree/master/1757-recyclable-and-low-fat-products) |
