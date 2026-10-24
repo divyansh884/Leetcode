@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-count-good-numbers](https://github.com/divyansh884/Leetcode/tree/master/2050-count-good-numbers) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/divyansh884/Leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/divyansh884/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2409-count-days-spent-together](https://github.com/divyansh884/Leetcode/tree/master/2409-count-days-spent-together) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/divyansh884/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2649-count-total-number-of-colored-cells](https://github.com/divyansh884/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/divyansh884/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/divyansh884/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/divyansh884/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/divyansh884/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2409-count-days-spent-together](https://github.com/divyansh884/Leetcode/tree/master/2409-count-days-spent-together) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/divyansh884/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/divyansh884/Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/divyansh884/Leetcode/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
