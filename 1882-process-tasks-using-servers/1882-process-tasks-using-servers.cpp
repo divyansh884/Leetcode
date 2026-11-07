@@ -12,31 +12,36 @@ public:
         }
 
         vector<int> ans(m);
-        long long current_time = 0;
-
+        long long current_time=0;
         for (int i = 0; i < m; i++) {
             current_time = max(current_time, (long long)i);
-
-            while (!pqt.empty() && pqt.top().first <= current_time) {
+            while (!pqt.empty() && pqt.top().first <= i) {
                 int idx = pqt.top().second;
                 pqt.pop();
                 pqs.push({servers[idx], idx});
             }
 
             if (pqs.empty()) {
-                current_time = pqt.top().first;
+               current_time = pqt.top().first;
                 while (!pqt.empty() && pqt.top().first <= current_time) {
                     int idx = pqt.top().second;
                     pqt.pop();
                     pqs.push({servers[idx], idx});
                 }
+
+                auto it = pqs.top();
+                pqs.pop();
+
+                ans[i] = it.second;
+                pqt.push({current_time + tasks[i], it.second});
             } 
+            else {
+                auto it = pqs.top();
+                pqs.pop();
 
-            auto it = pqs.top();
-            pqs.pop();
-
-            ans[i] = it.second;
-            pqt.push({current_time + tasks[i], it.second});
+                ans[i] = it.second;
+                pqt.push({current_time + tasks[i], it.second});
+            }
         }
         return ans;
     }
