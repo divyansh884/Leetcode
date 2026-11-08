@@ -506,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/divyansh884/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1248-count-number-of-nice-subarrays](https://github.com/divyansh884/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1266-minimum-time-visiting-all-points](https://github.com/divyansh884/Leetcode/tree/master/1266-minimum-time-visiting-all-points) |
+| [1267-count-servers-that-communicate](https://github.com/divyansh884/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1288-remove-covered-intervals](https://github.com/divyansh884/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/divyansh884/Leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1301-number-of-paths-with-max-score](https://github.com/divyansh884/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
@@ -813,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1034-subarrays-with-k-different-integers](https://github.com/divyansh884/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1189-maximum-number-of-balloons](https://github.com/divyansh884/Leetcode/tree/master/1189-maximum-number-of-balloons) |
+| [1267-count-servers-that-communicate](https://github.com/divyansh884/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1364-tuple-with-same-product](https://github.com/divyansh884/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/divyansh884/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1502-construct-k-palindrome-strings](https://github.com/divyansh884/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -1357,6 +1359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/divyansh884/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/divyansh884/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/divyansh884/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1267-count-servers-that-communicate](https://github.com/divyansh884/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/divyansh884/Leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1301-number-of-paths-with-max-score](https://github.com/divyansh884/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/divyansh884/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -1615,6 +1618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/divyansh884/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1267-count-servers-that-communicate](https://github.com/divyansh884/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1300-critical-connections-in-a-network](https://github.com/divyansh884/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1306-jump-game-iii](https://github.com/divyansh884/Leetcode/tree/master/1306-jump-game-iii) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/divyansh884/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -1674,6 +1678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/divyansh884/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/divyansh884/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/divyansh884/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1267-count-servers-that-communicate](https://github.com/divyansh884/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1306-jump-game-iii](https://github.com/divyansh884/Leetcode/tree/master/1306-jump-game-iii) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/divyansh884/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1345-jump-game-iv](https://github.com/divyansh884/Leetcode/tree/master/1345-jump-game-iv) |
@@ -1816,6 +1821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/divyansh884/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/divyansh884/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/divyansh884/Leetcode/tree/master/1020-number-of-enclaves) |
+| [1267-count-servers-that-communicate](https://github.com/divyansh884/Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/divyansh884/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/divyansh884/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/divyansh884/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
