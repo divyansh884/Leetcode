@@ -16,8 +16,6 @@ public:
             int r = q.top()[1];
             int c = q.top()[2];
             q.pop();
-            if (dist < dis[r][c])
-                continue;
             for (int i = 0; i < 8; i++) {
                 int nr = r + dx[i];
                 int nc = c + dy[i];
